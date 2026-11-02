@@ -1,7 +1,7 @@
 _ > nanoagent.plugin.v0001.ManifestConfig:
 id: complementary-or-contrastive
 name: Complementary or Contrastive
-version: 0.1.0
+version: 0.1.1
 status: ready
 spec: nanoagent.plugin/v0001
 
@@ -42,6 +42,7 @@ tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
       - Syllables: a single consonant between vowels begins the next syllable (V.CV); two consonants between vowels are split (VC.CV). Word boundaries are also syllable boundaries. A closed syllable ends in a consonant.
       - In a complementary dataset, the environment is one of: before a sound from a set S; after a sound from a set S; word-initially; word-finally; before a sound from a set S that is word-final; before a sound from a set S that ends its syllable; in a closed syllable. The shown words decide every blank.
       Every dataset has blanks, whatever its distribution.
-      Submit:
-      - If contrastive: distribution contrastive, minimal_pairs with at least one minimal pair from the shown words (every pair you list must be one), and predictions [].
-      - If complementary: distribution complementary, minimal_pairs [], and predictions with exactly one entry per blank_id, each sound A or B, copied exactly as get_dataset gives them.
+      Plan. Exactly two tool calls: (1) get_dataset; (2) submit. Reason briefly between them: first look for a minimal pair; if there is none, list the environments of A and of B and find the one that separates them. Then call submit at once.
+      Submit. The task ends only when you call the submit tool: never write your answer as a message, since a reply without a tool call ends the task as a failure. If submit returns an error, fix the arguments it names and call submit again. Its arguments:
+      - If contrastive: distribution "contrastive", minimal_pairs with at least one pair of shown words (every pair you list must be a minimal pair), and predictions []. For example: {"distribution": "contrastive", "minimal_pairs": [{"first": "pata", "second": "pada"}], "predictions": []}
+      - If complementary: distribution "complementary", minimal_pairs [], and predictions with exactly one entry per blank_id, each sound A or B, copied exactly as get_dataset gives them. For example: {"distribution": "complementary", "minimal_pairs": [], "predictions": [{"blank_id": "b1", "sound": "t"}, {"blank_id": "b2", "sound": "d"}]}
