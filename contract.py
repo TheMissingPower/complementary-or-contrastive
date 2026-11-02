@@ -68,7 +68,7 @@ class ShownWord(Output):
 class ShownBlank(Output):
     blank_id: Annotated[str, BLANK_ID]
     form: Annotated[str, "A held-out word with one _ where A or B belongs, e.g. ta_u"]
-    syllables: Annotated[str, SYLLABLES + "; the _ counts as A or B"]
+    syllables: Annotated[str, "The form split into syllables with dots, the _ counted as A or B, e.g. mi._i.ya"]
     gloss: Annotated[str, "The word's English meaning"]
 
 
