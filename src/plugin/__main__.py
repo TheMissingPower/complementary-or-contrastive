@@ -13,7 +13,7 @@ from mcp.server.stdio import stdio_server
 from slimconfig import build_output, output_schema, plain_output
 
 from contract import TOOLS, Tool
-from plugin import get_dataset, pin_dataset
+from plugin import get_dataset, pin_dataset, save_notes
 
 server = Server("complementary-or-contrastive")
 # NanoAgent names the one folder this plugin may write to.
@@ -22,6 +22,7 @@ WORKSPACE_ENV = "NANOAGENT_WORKSPACE"
 IMPLEMENTATIONS = {
     Tool.GET_DATASET: get_dataset,
     Tool.PIN_DATASET: pin_dataset,
+    Tool.SAVE_NOTES: save_notes,
 }
 
 

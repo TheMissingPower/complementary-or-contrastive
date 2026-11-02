@@ -2,11 +2,12 @@
 
 from contract import Task, Tool
 
-from . import answer_key, dataset, distribution
+from . import answer_key, dataset, distribution, notes
 
 TOOLS = {
     Tool.GET_DATASET: dataset,
     Tool.PIN_DATASET: answer_key,
+    Tool.SAVE_NOTES: notes,
 }
 # task -> its output's check, verify_task(arguments, output, reference, workspace)
 TASKS = {Task.CLASSIFY_DISTRIBUTION: distribution.verify_task}

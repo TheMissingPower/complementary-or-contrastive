@@ -6,8 +6,17 @@ import pytest
 from slimconfig import build_output, plain_output
 
 import verifier
-from contract import AnswerKeyOutput, DatasetInput, DatasetOutput, Distribution, DistributionOutput
+from contract import (
+    AnswerKeyOutput,
+    DatasetInput,
+    DatasetOutput,
+    Distribution,
+    DistributionOutput,
+    NotesInput,
+    NotesOutput,
+)
 from plugin.datasets import get_dataset, load_datasets, pin_dataset
+from plugin.notes import save_notes
 
 KEYS = load_datasets()
 CONTRASTIVE = next(key for key in KEYS if key.distribution is Distribution.CONTRASTIVE)
@@ -220,13 +229,34 @@ def test_checks_get_dataset_calls(tmp_path) -> None:
         {**returned, "target_sounds": returned["target_sounds"][:1]},
         {**returned, "target_sounds": [returned["target_sounds"][0]] * 2},
         {**returned, "words": returned["words"] + returned["words"][:1]},
-        {**returned, "words": [{"form": "pa1", "gloss": "x"}]},
+        {**returned, "words": [{"form": "pa1", "syllables": "pa1", "gloss": "x"}]},
+        {**returned, "words": [{**returned["words"][0], "syllables": returned["words"][0]["form"]}]},
+        {**returned, "blanks": [{**blank, "syllables": blank["form"]}]},
         {**returned, "blanks": [{**blank, "form": blank["form"].replace("_", "")}]},
         {**returned, "blanks": [{**blank, "form": blank["form"] + "_"}]},
         {**returned, "blanks": [blank, blank]},
     ]:
         built = build_output(broken, DatasetOutput)
         assert verifier.verify_output("get_dataset", given, built, "")["valid"] is False
+
+
+def test_checks_save_notes_calls(tmp_path) -> None:
+    assert verifier.verify_input("save_notes", build_output({"notes": "no minimal pair"}, NotesInput))["valid"] is True
+    assert verifier.verify_input("save_notes", build_output({"notes": "  "}, NotesInput))["valid"] is False
+    notes = []
+    for text in ["no minimal pair", "r: ri.ke, before i (ends syllable)"]:
+        given = build_output({"notes": text}, NotesInput)
+        returned = build_output(plain_output(save_notes(given, tmp_path)), NotesOutput)
+        notes.append(text)
+        assert returned.notes == notes
+        assert verifier.verify_output("save_notes", given, returned, str(tmp_path))["valid"] is True
+    for broken in [
+        {"path": "notes.md", "notes": notes},
+        {"path": "notes.json", "notes": notes[:1]},
+        {"path": "notes.json", "notes": ["something else", notes[-1]]},
+    ]:
+        built = build_output(broken, NotesOutput)
+        assert verifier.verify_output("save_notes", given, built, str(tmp_path))["valid"] is False
 
 
 def test_refuses_a_tampered_answer_key(tmp_path) -> None:

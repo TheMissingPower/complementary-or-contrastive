@@ -1,6 +1,7 @@
 """get_dataset's checks: a known id asked, and the dataset it returns is well formed and is the one asked for."""
 
 from .checks import dataset_id_problem, dataset_problem, result
+from .rules import syllables
 
 
 def verify_input(value):
@@ -14,6 +15,11 @@ def verify_output(input_value, output_value, workspace):
     problem = dataset_problem(output_value)
     if problem:
         return result(False, problem)
+    sound = output_value.target_sounds[0]
+    for word in [*output_value.words, *output_value.blanks]:
+        expected = syllables(word.form, sound)
+        if word.syllables != expected:
+            return result(False, f"{word.form} is split {word.syllables!r}, not {expected!r}")
     return result(
         True, f"{output_value.dataset_id}: {len(output_value.words)} words, {len(output_value.blanks)} blanks"
     )

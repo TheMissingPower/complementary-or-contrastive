@@ -37,6 +37,12 @@ def syllable_final(form):
     return final
 
 
+def syllables(form, blank_sound=None):
+    """The form with a dot after each syllable but the last; a _ is read as ``blank_sound`` and kept."""
+    final = syllable_final(form.replace(BLANK, blank_sound) if blank_sound else form)
+    return "".join(symbol + ("." if final[i] and i < len(form) - 1 else "") for i, symbol in enumerate(form))
+
+
 def context(environment, form, i):
     """Position i's context: a neighboring symbol, BOUNDARY or None for a set environment, else a bool."""
     last = len(form) - 1

@@ -7,7 +7,8 @@ from pathlib import Path
 
 from slimconfig import build_output
 
-from contract import AnswerKeyOutput, DatasetInput, DatasetOutput
+from contract import AnswerKeyOutput, DatasetInput, DatasetOutput, ShownBlank, ShownWord
+from verifier.rules import syllables
 
 DATA = Path(__file__).parent / "data"
 DATASETS = DATA / "datasets.json"
@@ -27,5 +28,14 @@ def pin_dataset(given: DatasetInput, workspace: Path) -> AnswerKeyOutput:
 
 
 def get_dataset(given: DatasetInput, workspace: Path) -> DatasetOutput:
+    """The dataset without its answer key, each word also split into syllables by the task's convention."""
     key = pin_dataset(given, workspace)
-    return DatasetOutput(dataset_id=key.dataset_id, target_sounds=key.target_sounds, words=key.words, blanks=key.blanks)
+    sound = key.target_sounds[0]  # both target sounds are vowels, or both consonants
+    return DatasetOutput(
+        dataset_id=key.dataset_id,
+        target_sounds=key.target_sounds,
+        words=[ShownWord(word.form, syllables(word.form), word.gloss) for word in key.words],
+        blanks=[
+            ShownBlank(blank.blank_id, blank.form, syllables(blank.form, sound), blank.gloss) for blank in key.blanks
+        ],
+    )

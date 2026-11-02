@@ -22,14 +22,15 @@ real-language data is used.
 
 | Tool | Does | Code |
 |---|---|---|
-| `get_dataset` | Gives a dataset by id (`lang-01` to `lang-20`): its target sounds, its 30 words with glosses, and its 8 blanks. Read-only; it analyzes nothing | `src/plugin/datasets.py` |
+| `get_dataset` | Gives a dataset by id (`lang-01` to `lang-20`): its target sounds, its 30 words with glosses and syllable breaks (`de.mob.ri`, by the stated convention), and its 8 blanks. Read-only; it does not analyze the distribution | `src/plugin/datasets.py` |
 | `pin_dataset` | Pins a frozen dataset's answer key: the distribution, every minimal pair, the hidden rule and each blank's sound | `src/plugin/datasets.py` |
+| `save_notes` | Saves one step's working notes to `notes.json` in the workspace and returns every step's notes so far. It stores text only and analyzes nothing | `src/plugin/notes.py` |
 
 ### Tasks
 
 | Task | Does | Runner |
 |---|---|---|
-| `classify-distribution` | Decides complementary or contrastive for a dataset, with minimal pairs or blank fill-ins as evidence | `agent`, with `get_dataset`; reference `pin_dataset` |
+| `classify-distribution` | Decides complementary or contrastive for a dataset, with minimal pairs or blank fill-ins as evidence | `agent`, with `get_dataset` and `save_notes`; reference `pin_dataset` |
 
 Input: `{"dataset_id": str}`. Output:
 
@@ -42,8 +43,8 @@ Input: `{"dataset_id": str}`. Output:
 ```
 
 `pin_dataset` is the task's reference tool. NanoAgent runs it before the agent
-starts, so the agent never sees its output. The agent gets only `get_dataset`,
-which returns the data and none of the answer key. Every dataset has blanks,
+starts, so the agent never sees its output. The agent gets `get_dataset`,
+which returns the data and none of the answer key, and `save_notes`. Every dataset has blanks,
 the contrastive ones too, so the shape of the data does not give the label
 away. Ids are shuffled, so they do not give it away either.
 
@@ -57,6 +58,12 @@ The rules the agent is given:
 - In a complementary dataset, the environment is one of these: before a sound from a set S; after
   a sound from a set S; word-initially; word-finally; before a word-final sound
   from S; before a syllable-final sound from S; in a closed syllable.
+
+The agent works in small steps, each ending in one tool call: find a minimal
+pair; note where A occurs; note where B occurs; name the rule; submit. RUSH Lab's
+model has a small output budget per reply. A reply that runs out before its tool
+call ends the task without a submission, so the task gives each step its own reply,
+and `save_notes` carries the findings from one step to the next.
 
 ### Datasets
 
@@ -157,6 +164,7 @@ The tool checks:
 ├── .env             # environment variable NAMEs this plugin needs (none)
 ├── src/plugin/      # the MCP server: __main__.py, its IMPLEMENTATIONS, and the plugin's own modules
 │   ├── datasets.py          # the frozen datasets, get_dataset and pin_dataset
+│   ├── notes.py             # the save_notes tool
 │   ├── generate_datasets.py # writes data/datasets.json, once: languages, rules, uniqueness checks
 │   └── data/datasets.json   # the 20 frozen datasets with their answer keys
 ├── tests/           # test_verifier.py (the verifier's cases) and test_plugin.py (data, uniqueness, tools)

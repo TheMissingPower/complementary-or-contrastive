@@ -10,6 +10,7 @@ from slimconfig import Output
 class Tool(Enum):
     GET_DATASET = "get_dataset"
     PIN_DATASET = "pin_dataset"
+    SAVE_NOTES = "save_notes"
 
 
 class Task(Enum):
@@ -35,6 +36,7 @@ DATASET_ID = "The dataset's id, lang-01 to lang-20, e.g. lang-07"
 TARGET_SOUNDS = 'The two target sounds A and B, one symbol each, e.g. ["t", "ʔ"]'
 FORM = "A word, one symbol per sound, e.g. tapuʔ"
 BLANK_ID = "The blank's id, as get_dataset gives it, e.g. b3"
+SYLLABLES = "The form split into syllables with dots by the task's convention (V.CV, VC.CV), e.g. de.mob.ri"
 
 
 @dataclass
@@ -56,11 +58,37 @@ class Blank(Output):
 
 
 @dataclass
+class ShownWord(Output):
+    form: Annotated[str, FORM]
+    syllables: Annotated[str, SYLLABLES]
+    gloss: Annotated[str, "The word's English meaning"]
+
+
+@dataclass
+class ShownBlank(Output):
+    blank_id: Annotated[str, BLANK_ID]
+    form: Annotated[str, "A held-out word with one _ where A or B belongs, e.g. ta_u"]
+    syllables: Annotated[str, SYLLABLES + "; the _ counts as A or B"]
+    gloss: Annotated[str, "The word's English meaning"]
+
+
+@dataclass
 class DatasetOutput(Output):
     dataset_id: Annotated[str, DATASET_ID]
     target_sounds: Annotated[list[str], TARGET_SOUNDS]
-    words: Annotated[list[Word], "The shown words of the language"]
-    blanks: Annotated[list[Blank], "The held-out words, each with one blank for A or B"]
+    words: Annotated[list[ShownWord], "The shown words of the language"]
+    blanks: Annotated[list[ShownBlank], "The held-out words, each with one blank for A or B"]
+
+
+@dataclass
+class NotesInput(Output):
+    notes: Annotated[str, "This step's findings, short lines, e.g. the environments of one target sound"]
+
+
+@dataclass
+class NotesOutput(Output):
+    path: Annotated[str, "The notes file, relative to the workspace: notes.json"]
+    notes: Annotated[list[str], "Every step's notes so far, in order"]
 
 
 @dataclass
@@ -108,6 +136,7 @@ class AnswerKeyOutput(Output):
 TOOLS = {
     Tool.GET_DATASET: (DatasetInput, DatasetOutput),
     Tool.PIN_DATASET: (DatasetInput, AnswerKeyOutput),
+    Tool.SAVE_NOTES: (NotesInput, NotesOutput),
 }
 TASKS = {
     Task.CLASSIFY_DISTRIBUTION: (DatasetInput, DistributionOutput),

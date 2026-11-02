@@ -1,7 +1,7 @@
 _ > nanoagent.plugin.v0001.ManifestConfig:
 id: complementary-or-contrastive
 name: Complementary or Contrastive
-version: 0.1.1
+version: 0.1.2
 status: ready
 spec: nanoagent.plugin/v0001
 
@@ -18,19 +18,21 @@ permissions > nanoagent.plugin.v0001.PermissionsConfig:
 # One entry per contract.Tool; its input and output classes are contract.TOOLS's.
 tools > dict[contract.Tool, nanoagent.plugin.v0001.ToolConfig]:
   get_dataset:
-    description: Get a dataset of an invented language by its id, lang-01 to lang-20; its two target sounds, its words with English glosses, and its held-out words with a blank
+    description: Get a dataset of an invented language by its id, lang-01 to lang-20; its two target sounds, its words with English glosses and syllable breaks, and its held-out words with a blank
   pin_dataset:
     description: Pin a frozen dataset's answer key, its distribution, every minimal pair, its hidden rule and the sound of every blank
+  save_notes:
+    description: Save one step's working notes to notes.json in the workspace and return every step's notes so far
 
 # One entry per contract.Task; its input class is contract.TASKS's.
 tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
   classify-distribution:
     description: Decide whether two sounds of an invented language are in complementary or contrastive distribution, and prove it with minimal pairs or by filling in held-out words
     runner: agent
-    tools: [get_dataset]
+    tools: [get_dataset, save_notes]
     reference: pin_dataset
     instructions: |-
-      Call get_dataset once with the dataset_id. It gives two target sounds, A and B, the shown words of an invented language with English glosses, and blanks: held-out words with one _ where A or B belongs.
+      Call get_dataset once with the dataset_id. It gives two target sounds, A and B, the shown words of an invented language with English glosses and syllable breaks, and blanks: held-out words with one _ where A or B belongs.
       Decide whether A and B are in complementary or contrastive distribution, using the shown words.
       Definitions:
       - Complementary distribution: A and B never occur in the same environment. One occurs in a predictable environment and the other everywhere else, so they are two pronunciations of one sound.
@@ -42,7 +44,13 @@ tasks > dict[contract.Task, nanoagent.plugin.v0001.TaskConfig]:
       - Syllables: a single consonant between vowels begins the next syllable (V.CV); two consonants between vowels are split (VC.CV). Word boundaries are also syllable boundaries. A closed syllable ends in a consonant.
       - In a complementary dataset, the environment is one of: before a sound from a set S; after a sound from a set S; word-initially; word-finally; before a sound from a set S that is word-final; before a sound from a set S that ends its syllable; in a closed syllable. The shown words decide every blank.
       Every dataset has blanks, whatever its distribution.
-      Plan. Exactly two tool calls: (1) get_dataset; (2) submit. Reason briefly between them: first look for a minimal pair; if there is none, list the environments of A and of B and find the one that separates them. Then call submit at once.
+      Plan. Work in small steps, one tool call per step, and keep every reply short: each reply has a small output budget, and a reply that runs out before its tool call ends the task as a failure. Never list all the words; write only the lines a step asks for, one short line each.
+      (1) Call get_dataset.
+      (2) Minimal pairs: compare only shown words of the same length that hold A or B. If two differ only in A vs B in one position, submit contrastive with that pair now. Otherwise call save_notes with "no minimal pair".
+      (3) Call save_notes with one line per occurrence of A in the shown words: its syllables, the sound before it, the sound after it, and whether that next sound ends its syllable, e.g. "de.mob.ri: after b, before i (ends syllable)".
+      (4) The same for B, in a save_notes call.
+      (5) Call save_notes with the environment that every A and no B has (or every B and no A), from the kinds listed above, and the sound it gives each blank.
+      (6) Call submit.
       Submit. The task ends only when you call the submit tool: never write your answer as a message, since a reply without a tool call ends the task as a failure. If submit returns an error, fix the arguments it names and call submit again. Its arguments:
       - If contrastive: distribution "contrastive", minimal_pairs with at least one pair of shown words (every pair you list must be a minimal pair), and predictions []. For example: {"distribution": "contrastive", "minimal_pairs": [{"first": "pata", "second": "pada"}], "predictions": []}
       - If complementary: distribution "complementary", minimal_pairs [], and predictions with exactly one entry per blank_id, each sound A or B, copied exactly as get_dataset gives them. For example: {"distribution": "complementary", "minimal_pairs": [], "predictions": [{"blank_id": "b1", "sound": "t"}, {"blank_id": "b2", "sound": "d"}]}

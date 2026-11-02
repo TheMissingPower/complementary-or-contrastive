@@ -16,7 +16,7 @@ from plugin import get_dataset, pin_dataset
 from plugin.datasets import DATASETS, load_datasets
 from plugin.generate_datasets import COMPLEMENTARY, SEED, datasets, dumps, near_miss, uniqueness_problem, violations
 from verifier.checks import SYMBOLS
-from verifier.rules import BLANK, filled, realize
+from verifier.rules import BLANK, filled, realize, syllables
 
 KEYS = load_datasets()
 
@@ -110,8 +110,25 @@ def test_get_dataset_gives_the_data_and_not_the_answer(tmp_path: Path) -> None:
     key = KEYS[0]
     data = plain_output(get_dataset(DatasetInput(dataset_id=key.dataset_id), tmp_path))
     assert set(data) == {"dataset_id", "target_sounds", "words", "blanks"}
-    assert data["words"] == [plain_output(word) for word in key.words]
+    assert [(word["form"], word["gloss"]) for word in data["words"]] == [(word.form, word.gloss) for word in key.words]
+    assert [blank["form"] for blank in data["blanks"]] == [blank.form for blank in key.blanks]
     assert "rule" not in json.dumps(data) and "answers" not in json.dumps(data)
+
+
+@pytest.mark.parametrize(
+    ("form", "sound", "split"),
+    [
+        ("demobri", None, "de.mob.ri"),
+        ("tudtigihra", None, "tud.ti.gih.ra"),
+        ("sirayawe", None, "si.ra.ya.we"),
+        ("tagmid", None, "tag.mid"),
+        ("mi_iya", "d", "mi._i.ya"),
+        ("n_bhub", "i", "n_b.hub"),
+        ("k_de", "u", "k_.de"),
+    ],
+)
+def test_syllable_breaks_follow_the_convention(form, sound, split) -> None:
+    assert syllables(form, sound) == split
 
 
 def test_the_tools_refuse_an_unknown_dataset(tmp_path: Path) -> None:
