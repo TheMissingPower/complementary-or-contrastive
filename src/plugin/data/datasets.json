@@ -1,0 +1,4066 @@
+[
+ {
+  "dataset_id": "lang-01",
+  "target_sounds": [
+   "e",
+   "a"
+  ],
+  "words": [
+   {
+    "form": "puho",
+    "gloss": "cup"
+   },
+   {
+    "form": "noŋtonoy",
+    "gloss": "debt"
+   },
+   {
+    "form": "yeyanu",
+    "gloss": "song"
+   },
+   {
+    "form": "teʃiy",
+    "gloss": "fish"
+   },
+   {
+    "form": "tiʃhihupo",
+    "gloss": "foot"
+   },
+   {
+    "form": "laŋtu",
+    "gloss": "nose"
+   },
+   {
+    "form": "tuŋyinpa",
+    "gloss": "bone"
+   },
+   {
+    "form": "nolpo",
+    "gloss": "road"
+   },
+   {
+    "form": "nuha",
+    "gloss": "ash"
+   },
+   {
+    "form": "ʃapuspi",
+    "gloss": "tooth"
+   },
+   {
+    "form": "sahʃaʔpit",
+    "gloss": "story"
+   },
+   {
+    "form": "taʔta",
+    "gloss": "snow"
+   },
+   {
+    "form": "heʃyansop",
+    "gloss": "meat"
+   },
+   {
+    "form": "soŋyiʃho",
+    "gloss": "arrow"
+   },
+   {
+    "form": "hiʔa",
+    "gloss": "rope"
+   },
+   {
+    "form": "haʔʔaniʔi",
+    "gloss": "drum"
+   },
+   {
+    "form": "ŋutho",
+    "gloss": "blood"
+   },
+   {
+    "form": "ŋeʃʔanʔuʔ",
+    "gloss": "bowl"
+   },
+   {
+    "form": "titnon",
+    "gloss": "garden"
+   },
+   {
+    "form": "ʃita",
+    "gloss": "salt"
+   },
+   {
+    "form": "ʔoypoʃuhla",
+    "gloss": "forest"
+   },
+   {
+    "form": "haŋlu",
+    "gloss": "ring"
+   },
+   {
+    "form": "hiʔeʃhin",
+    "gloss": "house"
+   },
+   {
+    "form": "toŋʃisutiʔ",
+    "gloss": "smoke"
+   },
+   {
+    "form": "ʔotunyasniʃ",
+    "gloss": "flower"
+   },
+   {
+    "form": "ʔosaʔʔihpi",
+    "gloss": "father"
+   },
+   {
+    "form": "latsaŋsu",
+    "gloss": "tower"
+   },
+   {
+    "form": "ŋiŋeypuŋlus",
+    "gloss": "snake"
+   },
+   {
+    "form": "yinhalah",
+    "gloss": "rain"
+   },
+   {
+    "form": "yuhhuyanlaʔ",
+    "gloss": "hand"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "ʔ_sohto",
+    "gloss": "cow"
+   },
+   {
+    "blank_id": "b2",
+    "form": "ʃiypip_sot",
+    "gloss": "moon"
+   },
+   {
+    "blank_id": "b3",
+    "form": "l_yi",
+    "gloss": "tongue"
+   },
+   {
+    "blank_id": "b4",
+    "form": "s_ptoy",
+    "gloss": "name"
+   },
+   {
+    "blank_id": "b5",
+    "form": "h_hpunulpiʃ",
+    "gloss": "dance"
+   },
+   {
+    "blank_id": "b6",
+    "form": "luʔ_y",
+    "gloss": "price"
+   },
+   {
+    "blank_id": "b7",
+    "form": "hinʃ_pusiʃ",
+    "gloss": "hill"
+   },
+   {
+    "blank_id": "b8",
+    "form": "hityoŋ_ypot",
+    "gloss": "belt"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "e",
+   "elsewhere": "a",
+   "environment": "before",
+   "sounds": [
+    "y",
+    "ʃ"
+   ],
+   "description": "/a/ is [e] before y or ʃ, and [a] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "e"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-02",
+  "target_sounds": [
+   "e",
+   "i"
+  ],
+  "words": [
+   {
+    "form": "rerin",
+    "gloss": "goat"
+   },
+   {
+    "form": "bike",
+    "gloss": "net"
+   },
+   {
+    "form": "rukaʔlublil",
+    "gloss": "snake"
+   },
+   {
+    "form": "buqigu",
+    "gloss": "ash"
+   },
+   {
+    "form": "ʔaqrorbok",
+    "gloss": "ring"
+   },
+   {
+    "form": "gangero",
+    "gloss": "bow"
+   },
+   {
+    "form": "koʃkib",
+    "gloss": "leaf"
+   },
+   {
+    "form": "ʃoku",
+    "gloss": "horse"
+   },
+   {
+    "form": "giʃogqur",
+    "gloss": "dance"
+   },
+   {
+    "form": "leʃuriʃiʔ",
+    "gloss": "tree"
+   },
+   {
+    "form": "ʃeselgi",
+    "gloss": "salt"
+   },
+   {
+    "form": "nikoʔ",
+    "gloss": "friend"
+   },
+   {
+    "form": "ʔikeq",
+    "gloss": "knee"
+   },
+   {
+    "form": "bekniraʃ",
+    "gloss": "ear"
+   },
+   {
+    "form": "bekneraʃ",
+    "gloss": "cup"
+   },
+   {
+    "form": "qaneʃʃekqi",
+    "gloss": "gate"
+   },
+   {
+    "form": "garreqleqsu",
+    "gloss": "tower"
+   },
+   {
+    "form": "ʃulʃebal",
+    "gloss": "lake"
+   },
+   {
+    "form": "giʔelguʔ",
+    "gloss": "bridge"
+   },
+   {
+    "form": "rakikkeb",
+    "gloss": "fence"
+   },
+   {
+    "form": "garreqliqsu",
+    "gloss": "knife"
+   },
+   {
+    "form": "bika",
+    "gloss": "snow"
+   },
+   {
+    "form": "seleregseg",
+    "gloss": "blood"
+   },
+   {
+    "form": "girilguʔ",
+    "gloss": "gift"
+   },
+   {
+    "form": "ganriro",
+    "gloss": "child"
+   },
+   {
+    "form": "gegeriʔe",
+    "gloss": "bread"
+   },
+   {
+    "form": "qika",
+    "gloss": "price"
+   },
+   {
+    "form": "quʔʔakbuqe",
+    "gloss": "island"
+   },
+   {
+    "form": "ʔelirola",
+    "gloss": "bird"
+   },
+   {
+    "form": "gaʃera",
+    "gloss": "grass"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "ʔ_suq",
+    "gloss": "nose"
+   },
+   {
+    "blank_id": "b2",
+    "form": "b_naga",
+    "gloss": "skin"
+   },
+   {
+    "blank_id": "b3",
+    "form": "g_nu",
+    "gloss": "belt"
+   },
+   {
+    "blank_id": "b4",
+    "form": "boqrag_n",
+    "gloss": "mat"
+   },
+   {
+    "blank_id": "b5",
+    "form": "ʔ_kkulʃa",
+    "gloss": "dog"
+   },
+   {
+    "blank_id": "b6",
+    "form": "kak_n",
+    "gloss": "heart"
+   },
+   {
+    "blank_id": "b7",
+    "form": "ʃ_nar",
+    "gloss": "rain"
+   },
+   {
+    "blank_id": "b8",
+    "form": "ʔusn_lsosʃuʔ",
+    "gloss": "river"
+   }
+  ],
+  "distribution": "contrastive",
+  "minimal_pairs": [
+   {
+    "first": "bekniraʃ",
+    "second": "bekneraʃ"
+   },
+   {
+    "first": "garreqleqsu",
+    "second": "garreqliqsu"
+   }
+  ],
+  "rule": null,
+  "answers": []
+ },
+ {
+  "dataset_id": "lang-03",
+  "target_sounds": [
+   "r",
+   "d"
+  ],
+  "words": [
+   {
+    "form": "godkikug",
+    "gloss": "bridge"
+   },
+   {
+    "form": "yedu",
+    "gloss": "dog"
+   },
+   {
+    "form": "rike",
+    "gloss": "door"
+   },
+   {
+    "form": "dosa",
+    "gloss": "cow"
+   },
+   {
+    "form": "sirayawe",
+    "gloss": "mother"
+   },
+   {
+    "form": "dikdihgakset",
+    "gloss": "valley"
+   },
+   {
+    "form": "baham",
+    "gloss": "road"
+   },
+   {
+    "form": "sagiy",
+    "gloss": "salt"
+   },
+   {
+    "form": "tagmid",
+    "gloss": "price"
+   },
+   {
+    "form": "demobri",
+    "gloss": "tree"
+   },
+   {
+    "form": "sode",
+    "gloss": "cave"
+   },
+   {
+    "form": "tuwido",
+    "gloss": "milk"
+   },
+   {
+    "form": "siktayu",
+    "gloss": "island"
+   },
+   {
+    "form": "kaso",
+    "gloss": "house"
+   },
+   {
+    "form": "tudtigihra",
+    "gloss": "arrow"
+   },
+   {
+    "form": "dayhi",
+    "gloss": "child"
+   },
+   {
+    "form": "dodhihgu",
+    "gloss": "pot"
+   },
+   {
+    "form": "wimkoh",
+    "gloss": "bed"
+   },
+   {
+    "form": "wusyowik",
+    "gloss": "dance"
+   },
+   {
+    "form": "gamayed",
+    "gloss": "dream"
+   },
+   {
+    "form": "dihbadya",
+    "gloss": "village"
+   },
+   {
+    "form": "widmikdis",
+    "gloss": "ear"
+   },
+   {
+    "form": "kudo",
+    "gloss": "fire"
+   },
+   {
+    "form": "goyera",
+    "gloss": "sand"
+   },
+   {
+    "form": "yegi",
+    "gloss": "hair"
+   },
+   {
+    "form": "watu",
+    "gloss": "blood"
+   },
+   {
+    "form": "hahgidegdim",
+    "gloss": "boat"
+   },
+   {
+    "form": "yadubemi",
+    "gloss": "ash"
+   },
+   {
+    "form": "hiyhoyidtid",
+    "gloss": "belt"
+   },
+   {
+    "form": "duskiteg",
+    "gloss": "gift"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "_egisubi",
+    "gloss": "garden"
+   },
+   {
+    "blank_id": "b2",
+    "form": "heh_uyo",
+    "gloss": "tower"
+   },
+   {
+    "blank_id": "b3",
+    "form": "mi_iya",
+    "gloss": "spear"
+   },
+   {
+    "blank_id": "b4",
+    "form": "_ute",
+    "gloss": "rope"
+   },
+   {
+    "blank_id": "b5",
+    "form": "ta_u",
+    "gloss": "tooth"
+   },
+   {
+    "blank_id": "b6",
+    "form": "_iwo",
+    "gloss": "lake"
+   },
+   {
+    "blank_id": "b7",
+    "form": "_itu",
+    "gloss": "gate"
+   },
+   {
+    "blank_id": "b8",
+    "form": "boho_i",
+    "gloss": "rain"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "r",
+   "elsewhere": "d",
+   "environment": "before-syllable-final",
+   "sounds": [
+    "a",
+    "i"
+   ],
+   "description": "/d/ is [r] before a syllable-final a or i, and [d] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "d"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "d"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "r"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "d"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "d"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "r"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "r"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "r"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-04",
+  "target_sounds": [
+   "ŋ",
+   "n"
+  ],
+  "words": [
+   {
+    "form": "ŋaŋo",
+    "gloss": "net"
+   },
+   {
+    "form": "renʃi",
+    "gloss": "knife"
+   },
+   {
+    "form": "buŋbiŋ",
+    "gloss": "lake"
+   },
+   {
+    "form": "ʔirʔiʔruʔ",
+    "gloss": "ear"
+   },
+   {
+    "form": "ʔiŋgo",
+    "gloss": "rain"
+   },
+   {
+    "form": "nugŋu",
+    "gloss": "bone"
+   },
+   {
+    "form": "quŋu",
+    "gloss": "hill"
+   },
+   {
+    "form": "qonʃaŋhiʃun",
+    "gloss": "bread"
+   },
+   {
+    "form": "nanone",
+    "gloss": "eye"
+   },
+   {
+    "form": "buŋeŋeŋmon",
+    "gloss": "egg"
+   },
+   {
+    "form": "buŋeŋeŋmoŋ",
+    "gloss": "market"
+   },
+   {
+    "form": "gamim",
+    "gloss": "hand"
+   },
+   {
+    "form": "neraqeŋʔe",
+    "gloss": "tooth"
+   },
+   {
+    "form": "ʃuʔŋenuʔŋo",
+    "gloss": "mother"
+   },
+   {
+    "form": "ŋamuʃ",
+    "gloss": "name"
+   },
+   {
+    "form": "bunbaŋ",
+    "gloss": "fence"
+   },
+   {
+    "form": "moqa",
+    "gloss": "bed"
+   },
+   {
+    "form": "ŋanqa",
+    "gloss": "village"
+   },
+   {
+    "form": "nimaŋʔon",
+    "gloss": "grass"
+   },
+   {
+    "form": "ruguŋu",
+    "gloss": "blood"
+   },
+   {
+    "form": "ʔiŋbomno",
+    "gloss": "chief"
+   },
+   {
+    "form": "ʔoʃgeʔu",
+    "gloss": "door"
+   },
+   {
+    "form": "naʔŋeŋ",
+    "gloss": "forest"
+   },
+   {
+    "form": "baqnono",
+    "gloss": "milk"
+   },
+   {
+    "form": "noqereŋ",
+    "gloss": "bird"
+   },
+   {
+    "form": "heneʔba",
+    "gloss": "seed"
+   },
+   {
+    "form": "ŋarabbuqŋiŋ",
+    "gloss": "road"
+   },
+   {
+    "form": "nanoŋe",
+    "gloss": "meat"
+   },
+   {
+    "form": "ŋarabbumŋin",
+    "gloss": "cup"
+   },
+   {
+    "form": "garnenhona",
+    "gloss": "boat"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "_umaʔo",
+    "gloss": "fire"
+   },
+   {
+    "blank_id": "b2",
+    "form": "_oboh",
+    "gloss": "spear"
+   },
+   {
+    "blank_id": "b3",
+    "form": "ma_o",
+    "gloss": "basket"
+   },
+   {
+    "blank_id": "b4",
+    "form": "mimi_o",
+    "gloss": "smoke"
+   },
+   {
+    "blank_id": "b5",
+    "form": "ʔeqa_o",
+    "gloss": "skin"
+   },
+   {
+    "blank_id": "b6",
+    "form": "ro_ug",
+    "gloss": "water"
+   },
+   {
+    "blank_id": "b7",
+    "form": "bomo_raqu",
+    "gloss": "hair"
+   },
+   {
+    "blank_id": "b8",
+    "form": "_ehʃoqbe",
+    "gloss": "child"
+   }
+  ],
+  "distribution": "contrastive",
+  "minimal_pairs": [
+   {
+    "first": "nanone",
+    "second": "nanoŋe"
+   },
+   {
+    "first": "buŋeŋeŋmon",
+    "second": "buŋeŋeŋmoŋ"
+   }
+  ],
+  "rule": null,
+  "answers": []
+ },
+ {
+  "dataset_id": "lang-05",
+  "target_sounds": [
+   "d",
+   "l"
+  ],
+  "words": [
+   {
+    "form": "ŋeʔogaʔiʔ",
+    "gloss": "ear"
+   },
+   {
+    "form": "paliŋ",
+    "gloss": "tower"
+   },
+   {
+    "form": "silupgese",
+    "gloss": "friend"
+   },
+   {
+    "form": "ʃoʃelpil",
+    "gloss": "water"
+   },
+   {
+    "form": "gulsoʔaŋyo",
+    "gloss": "guest"
+   },
+   {
+    "form": "noguŋ",
+    "gloss": "milk"
+   },
+   {
+    "form": "ʃenŋaŋŋalʃul",
+    "gloss": "fence"
+   },
+   {
+    "form": "soloʔ",
+    "gloss": "bowl"
+   },
+   {
+    "form": "saʃel",
+    "gloss": "bone"
+   },
+   {
+    "form": "ʔuʔeʃgu",
+    "gloss": "smoke"
+   },
+   {
+    "form": "ʃoplol",
+    "gloss": "sand"
+   },
+   {
+    "form": "ʃunigpun",
+    "gloss": "mat"
+   },
+   {
+    "form": "yeloqyapʔoq",
+    "gloss": "story"
+   },
+   {
+    "form": "dapyaŋyugneq",
+    "gloss": "hill"
+   },
+   {
+    "form": "siʔŋepi",
+    "gloss": "tree"
+   },
+   {
+    "form": "ʃelos",
+    "gloss": "goat"
+   },
+   {
+    "form": "nossilgeg",
+    "gloss": "cow"
+   },
+   {
+    "form": "nipgaglo",
+    "gloss": "lake"
+   },
+   {
+    "form": "daŋaglep",
+    "gloss": "forest"
+   },
+   {
+    "form": "giŋlu",
+    "gloss": "skin"
+   },
+   {
+    "form": "ʔupul",
+    "gloss": "market"
+   },
+   {
+    "form": "saʔgisaʃuq",
+    "gloss": "basket"
+   },
+   {
+    "form": "paŋugolyal",
+    "gloss": "root"
+   },
+   {
+    "form": "duqyu",
+    "gloss": "father"
+   },
+   {
+    "form": "gasalos",
+    "gloss": "shadow"
+   },
+   {
+    "form": "gapyulŋu",
+    "gloss": "fish"
+   },
+   {
+    "form": "sagŋi",
+    "gloss": "house"
+   },
+   {
+    "form": "ʃepu",
+    "gloss": "island"
+   },
+   {
+    "form": "nugnul",
+    "gloss": "arrow"
+   },
+   {
+    "form": "daŋeʃoloy",
+    "gloss": "tongue"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "sipunag_e",
+    "gloss": "hair"
+   },
+   {
+    "blank_id": "b2",
+    "form": "_uŋuy",
+    "gloss": "belt"
+   },
+   {
+    "blank_id": "b3",
+    "form": "ya_senoqo",
+    "gloss": "garden"
+   },
+   {
+    "blank_id": "b4",
+    "form": "_aŋyeg",
+    "gloss": "hand"
+   },
+   {
+    "blank_id": "b5",
+    "form": "yunpineŋ_o",
+    "gloss": "dance"
+   },
+   {
+    "blank_id": "b6",
+    "form": "_ugʔiqe",
+    "gloss": "road"
+   },
+   {
+    "blank_id": "b7",
+    "form": "nusu_piyag",
+    "gloss": "debt"
+   },
+   {
+    "blank_id": "b8",
+    "form": "ŋungu_sis",
+    "gloss": "spear"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "d",
+   "elsewhere": "l",
+   "environment": "word-initial",
+   "sounds": [],
+   "description": "/l/ is [d] word-initially, and [l] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "l"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "d"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "l"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "d"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "l"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "d"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "l"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "l"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-06",
+  "target_sounds": [
+   "ʃ",
+   "s"
+  ],
+  "words": [
+   {
+    "form": "puʃhurʔawhe",
+    "gloss": "rope"
+   },
+   {
+    "form": "soŋu",
+    "gloss": "island"
+   },
+   {
+    "form": "peror",
+    "gloss": "foot"
+   },
+   {
+    "form": "ʃerʔiwaʔ",
+    "gloss": "boat"
+   },
+   {
+    "form": "welarpawʃe",
+    "gloss": "dance"
+   },
+   {
+    "form": "ʃimiʃʔe",
+    "gloss": "knee"
+   },
+   {
+    "form": "pushurʔalhe",
+    "gloss": "name"
+   },
+   {
+    "form": "saʃaʔasos",
+    "gloss": "tongue"
+   },
+   {
+    "form": "ʃahuremliw",
+    "gloss": "valley"
+   },
+   {
+    "form": "ʃeʃuʔwu",
+    "gloss": "ash"
+   },
+   {
+    "form": "ŋuso",
+    "gloss": "fence"
+   },
+   {
+    "form": "ʃisip",
+    "gloss": "basket"
+   },
+   {
+    "form": "sepiʃiʃel",
+    "gloss": "price"
+   },
+   {
+    "form": "warmoʃa",
+    "gloss": "bridge"
+   },
+   {
+    "form": "ʃopuhpus",
+    "gloss": "road"
+   },
+   {
+    "form": "luŋhuʃ",
+    "gloss": "father"
+   },
+   {
+    "form": "ŋilʃuʃuʔŋu",
+    "gloss": "forest"
+   },
+   {
+    "form": "laʔpemo",
+    "gloss": "blood"
+   },
+   {
+    "form": "relaʔʃa",
+    "gloss": "wind"
+   },
+   {
+    "form": "warmosa",
+    "gloss": "snow"
+   },
+   {
+    "form": "hiʃpeʃoŋ",
+    "gloss": "house"
+   },
+   {
+    "form": "riʔpeʃpeʃ",
+    "gloss": "tooth"
+   },
+   {
+    "form": "ʔelo",
+    "gloss": "spear"
+   },
+   {
+    "form": "ruʃo",
+    "gloss": "hand"
+   },
+   {
+    "form": "ruso",
+    "gloss": "stone"
+   },
+   {
+    "form": "mesusepo",
+    "gloss": "moon"
+   },
+   {
+    "form": "ʃeʃʔilul",
+    "gloss": "lake"
+   },
+   {
+    "form": "sohʃiʃaʃes",
+    "gloss": "bone"
+   },
+   {
+    "form": "seŋisiʃel",
+    "gloss": "tree"
+   },
+   {
+    "form": "lese",
+    "gloss": "snake"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "me_u",
+    "gloss": "belt"
+   },
+   {
+    "blank_id": "b2",
+    "form": "ŋe_ah",
+    "gloss": "rain"
+   },
+   {
+    "blank_id": "b3",
+    "form": "halu_ohŋu",
+    "gloss": "knife"
+   },
+   {
+    "blank_id": "b4",
+    "form": "_eriŋu",
+    "gloss": "bowl"
+   },
+   {
+    "blank_id": "b5",
+    "form": "_iŋo",
+    "gloss": "star"
+   },
+   {
+    "blank_id": "b6",
+    "form": "le_op",
+    "gloss": "bird"
+   },
+   {
+    "blank_id": "b7",
+    "form": "ŋuho_o",
+    "gloss": "village"
+   },
+   {
+    "blank_id": "b8",
+    "form": "_opwe",
+    "gloss": "ear"
+   }
+  ],
+  "distribution": "contrastive",
+  "minimal_pairs": [
+   {
+    "first": "warmoʃa",
+    "second": "warmosa"
+   },
+   {
+    "first": "ruʃo",
+    "second": "ruso"
+   }
+  ],
+  "rule": null,
+  "answers": []
+ },
+ {
+  "dataset_id": "lang-07",
+  "target_sounds": [
+   "ʃ",
+   "s"
+  ],
+  "words": [
+   {
+    "form": "guʔho",
+    "gloss": "star"
+   },
+   {
+    "form": "melŋahqu",
+    "gloss": "ear"
+   },
+   {
+    "form": "gehʃe",
+    "gloss": "cup"
+   },
+   {
+    "form": "ŋasreŋ",
+    "gloss": "mat"
+   },
+   {
+    "form": "ŋeʔiʔosos",
+    "gloss": "bowl"
+   },
+   {
+    "form": "himsa",
+    "gloss": "blood"
+   },
+   {
+    "form": "huʃi",
+    "gloss": "nose"
+   },
+   {
+    "form": "lesul",
+    "gloss": "bird"
+   },
+   {
+    "form": "sosoŋa",
+    "gloss": "song"
+   },
+   {
+    "form": "ʃisor",
+    "gloss": "island"
+   },
+   {
+    "form": "hunŋim",
+    "gloss": "water"
+   },
+   {
+    "form": "ʔurasasʔa",
+    "gloss": "net"
+   },
+   {
+    "form": "suŋoŋgalqer",
+    "gloss": "hill"
+   },
+   {
+    "form": "ŋaʃenos",
+    "gloss": "tower"
+   },
+   {
+    "form": "nehoshehʔo",
+    "gloss": "smoke"
+   },
+   {
+    "form": "ʔiʔoʔa",
+    "gloss": "door"
+   },
+   {
+    "form": "ʔesŋigso",
+    "gloss": "snake"
+   },
+   {
+    "form": "laŋŋeʔras",
+    "gloss": "valley"
+   },
+   {
+    "form": "soguhru",
+    "gloss": "milk"
+   },
+   {
+    "form": "sosqeŋo",
+    "gloss": "cloud"
+   },
+   {
+    "form": "higalsah",
+    "gloss": "horse"
+   },
+   {
+    "form": "hegasamnu",
+    "gloss": "meat"
+   },
+   {
+    "form": "sarallir",
+    "gloss": "road"
+   },
+   {
+    "form": "soruqu",
+    "gloss": "goat"
+   },
+   {
+    "form": "riqomoma",
+    "gloss": "garden"
+   },
+   {
+    "form": "qunraʃigos",
+    "gloss": "sun"
+   },
+   {
+    "form": "munnehiŋ",
+    "gloss": "leaf"
+   },
+   {
+    "form": "roraru",
+    "gloss": "child"
+   },
+   {
+    "form": "lirʃis",
+    "gloss": "fire"
+   },
+   {
+    "form": "ŋiqmuq",
+    "gloss": "belt"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "_imnaŋeŋ",
+    "gloss": "pot"
+   },
+   {
+    "blank_id": "b2",
+    "form": "qoʔahha_eʔ",
+    "gloss": "river"
+   },
+   {
+    "blank_id": "b3",
+    "form": "_uʔhe",
+    "gloss": "village"
+   },
+   {
+    "blank_id": "b4",
+    "form": "ŋelhe_e",
+    "gloss": "rain"
+   },
+   {
+    "blank_id": "b5",
+    "form": "qih_u",
+    "gloss": "tongue"
+   },
+   {
+    "blank_id": "b6",
+    "form": "nanumu_ʔa",
+    "gloss": "eye"
+   },
+   {
+    "blank_id": "b7",
+    "form": "_eŋunŋagmo",
+    "gloss": "skin"
+   },
+   {
+    "blank_id": "b8",
+    "form": "_equri",
+    "gloss": "name"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "ʃ",
+   "elsewhere": "s",
+   "environment": "before",
+   "sounds": [
+    "e",
+    "i"
+   ],
+   "description": "/s/ is [ʃ] before e or i, and [s] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "ʃ"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "ʃ"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "s"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "ʃ"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "s"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "s"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "ʃ"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "ʃ"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-08",
+  "target_sounds": [
+   "p",
+   "b"
+  ],
+  "words": [
+   {
+    "form": "risup",
+    "gloss": "mat"
+   },
+   {
+    "form": "baʔeʔa",
+    "gloss": "cup"
+   },
+   {
+    "form": "ʃupe",
+    "gloss": "fire"
+   },
+   {
+    "form": "ʔebubabi",
+    "gloss": "bow"
+   },
+   {
+    "form": "pasipiʔ",
+    "gloss": "spear"
+   },
+   {
+    "form": "bupasinap",
+    "gloss": "drum"
+   },
+   {
+    "form": "relpiregi",
+    "gloss": "wind"
+   },
+   {
+    "form": "gube",
+    "gloss": "dog"
+   },
+   {
+    "form": "binbibab",
+    "gloss": "field"
+   },
+   {
+    "form": "ʔebubapi",
+    "gloss": "market"
+   },
+   {
+    "form": "panbeʃi",
+    "gloss": "bridge"
+   },
+   {
+    "form": "subib",
+    "gloss": "leaf"
+   },
+   {
+    "form": "pasibiŋ",
+    "gloss": "friend"
+   },
+   {
+    "form": "pebiʃpip",
+    "gloss": "bone"
+   },
+   {
+    "form": "pubun",
+    "gloss": "lake"
+   },
+   {
+    "form": "ʔirpil",
+    "gloss": "tooth"
+   },
+   {
+    "form": "lobŋa",
+    "gloss": "root"
+   },
+   {
+    "form": "panpeʃi",
+    "gloss": "door"
+   },
+   {
+    "form": "ʔason",
+    "gloss": "belt"
+   },
+   {
+    "form": "rapsinbup",
+    "gloss": "eye"
+   },
+   {
+    "form": "boni",
+    "gloss": "seed"
+   },
+   {
+    "form": "ŋirepossa",
+    "gloss": "star"
+   },
+   {
+    "form": "babaŋbab",
+    "gloss": "chief"
+   },
+   {
+    "form": "gusiŋiʃ",
+    "gloss": "mother"
+   },
+   {
+    "form": "ʔospe",
+    "gloss": "debt"
+   },
+   {
+    "form": "lassun",
+    "gloss": "child"
+   },
+   {
+    "form": "ŋanni",
+    "gloss": "stone"
+   },
+   {
+    "form": "ʔoʔib",
+    "gloss": "cave"
+   },
+   {
+    "form": "buʃuʃa",
+    "gloss": "nose"
+   },
+   {
+    "form": "liŋaʔŋopa",
+    "gloss": "boat"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "_oʔesuler",
+    "gloss": "belly"
+   },
+   {
+    "blank_id": "b2",
+    "form": "ʃinuŋo_es",
+    "gloss": "pot"
+   },
+   {
+    "blank_id": "b3",
+    "form": "nanul_aʃaʔ",
+    "gloss": "hand"
+   },
+   {
+    "blank_id": "b4",
+    "form": "lu_ʔina",
+    "gloss": "story"
+   },
+   {
+    "blank_id": "b5",
+    "form": "ʃali_isi",
+    "gloss": "bird"
+   },
+   {
+    "blank_id": "b6",
+    "form": "ʔu_uŋ",
+    "gloss": "guest"
+   },
+   {
+    "blank_id": "b7",
+    "form": "loni_us",
+    "gloss": "valley"
+   },
+   {
+    "blank_id": "b8",
+    "form": "ga_a",
+    "gloss": "tree"
+   }
+  ],
+  "distribution": "contrastive",
+  "minimal_pairs": [
+   {
+    "first": "ʔebubabi",
+    "second": "ʔebubapi"
+   },
+   {
+    "first": "panbeʃi",
+    "second": "panpeʃi"
+   }
+  ],
+  "rule": null,
+  "answers": []
+ },
+ {
+  "dataset_id": "lang-09",
+  "target_sounds": [
+   "t",
+   "d"
+  ],
+  "words": [
+   {
+    "form": "gidipa",
+    "gloss": "eye"
+   },
+   {
+    "form": "ŋotoyesdu",
+    "gloss": "basket"
+   },
+   {
+    "form": "ŋadpetleyel",
+    "gloss": "pot"
+   },
+   {
+    "form": "kapsa",
+    "gloss": "bird"
+   },
+   {
+    "form": "tatuʃokot",
+    "gloss": "nose"
+   },
+   {
+    "form": "teʃiʃ",
+    "gloss": "debt"
+   },
+   {
+    "form": "lilogdedi",
+    "gloss": "tower"
+   },
+   {
+    "form": "sodyapa",
+    "gloss": "tree"
+   },
+   {
+    "form": "sutʃugitu",
+    "gloss": "tooth"
+   },
+   {
+    "form": "tedopkat",
+    "gloss": "father"
+   },
+   {
+    "form": "titged",
+    "gloss": "flower"
+   },
+   {
+    "form": "ŋeʃilapyet",
+    "gloss": "milk"
+   },
+   {
+    "form": "ketudsaŋ",
+    "gloss": "guest"
+   },
+   {
+    "form": "diʃyedilet",
+    "gloss": "ash"
+   },
+   {
+    "form": "diŋu",
+    "gloss": "fire"
+   },
+   {
+    "form": "doldasekkaʃ",
+    "gloss": "rope"
+   },
+   {
+    "form": "lugtuŋ",
+    "gloss": "belly"
+   },
+   {
+    "form": "lugduŋ",
+    "gloss": "blood"
+   },
+   {
+    "form": "ŋiktile",
+    "gloss": "cave"
+   },
+   {
+    "form": "depiʃ",
+    "gloss": "field"
+   },
+   {
+    "form": "digyediled",
+    "gloss": "door"
+   },
+   {
+    "form": "ʃikdigto",
+    "gloss": "mat"
+   },
+   {
+    "form": "deyyi",
+    "gloss": "ear"
+   },
+   {
+    "form": "geyŋeduʃe",
+    "gloss": "grass"
+   },
+   {
+    "form": "tegoge",
+    "gloss": "cloud"
+   },
+   {
+    "form": "keŋeyu",
+    "gloss": "fence"
+   },
+   {
+    "form": "tapŋi",
+    "gloss": "horse"
+   },
+   {
+    "form": "ŋikdile",
+    "gloss": "dream"
+   },
+   {
+    "form": "ʃutadge",
+    "gloss": "bed"
+   },
+   {
+    "form": "detyisi",
+    "gloss": "price"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "suʃ_os",
+    "gloss": "tongue"
+   },
+   {
+    "blank_id": "b2",
+    "form": "soʃpo_pagʃul",
+    "gloss": "rain"
+   },
+   {
+    "blank_id": "b3",
+    "form": "ŋaʃkeŋʃa_os",
+    "gloss": "water"
+   },
+   {
+    "blank_id": "b4",
+    "form": "ŋeki_",
+    "gloss": "sun"
+   },
+   {
+    "blank_id": "b5",
+    "form": "yu_yisos",
+    "gloss": "bridge"
+   },
+   {
+    "blank_id": "b6",
+    "form": "ʃu_ok",
+    "gloss": "village"
+   },
+   {
+    "blank_id": "b7",
+    "form": "ge_eŋiy",
+    "gloss": "gate"
+   },
+   {
+    "blank_id": "b8",
+    "form": "kuke_aʃsip",
+    "gloss": "meat"
+   }
+  ],
+  "distribution": "contrastive",
+  "minimal_pairs": [
+   {
+    "first": "lugtuŋ",
+    "second": "lugduŋ"
+   },
+   {
+    "first": "ŋiktile",
+    "second": "ŋikdile"
+   }
+  ],
+  "rule": null,
+  "answers": []
+ },
+ {
+  "dataset_id": "lang-10",
+  "target_sounds": [
+   "e",
+   "i"
+  ],
+  "words": [
+   {
+    "form": "wuʃhi",
+    "gloss": "spear"
+   },
+   {
+    "form": "ʃasiwaʃi",
+    "gloss": "gate"
+   },
+   {
+    "form": "gudaw",
+    "gloss": "name"
+   },
+   {
+    "form": "gehbuqi",
+    "gloss": "pot"
+   },
+   {
+    "form": "suʃuw",
+    "gloss": "egg"
+   },
+   {
+    "form": "ʃowʔoquw",
+    "gloss": "ring"
+   },
+   {
+    "form": "soʔoqiweq",
+    "gloss": "hill"
+   },
+   {
+    "form": "hawuʔwogeq",
+    "gloss": "debt"
+   },
+   {
+    "form": "titi",
+    "gloss": "lake"
+   },
+   {
+    "form": "ʔibaw",
+    "gloss": "root"
+   },
+   {
+    "form": "ʃubaʃʃug",
+    "gloss": "heart"
+   },
+   {
+    "form": "ʃobhiʃaw",
+    "gloss": "eye"
+   },
+   {
+    "form": "suset",
+    "gloss": "water"
+   },
+   {
+    "form": "sagaga",
+    "gloss": "ash"
+   },
+   {
+    "form": "bowohi",
+    "gloss": "tree"
+   },
+   {
+    "form": "dido",
+    "gloss": "cloud"
+   },
+   {
+    "form": "ʔugʔobeʃ",
+    "gloss": "game"
+   },
+   {
+    "form": "ʃitiga",
+    "gloss": "belly"
+   },
+   {
+    "form": "wihuthi",
+    "gloss": "goat"
+   },
+   {
+    "form": "wuʔbutiqa",
+    "gloss": "shadow"
+   },
+   {
+    "form": "hitiʃab",
+    "gloss": "tooth"
+   },
+   {
+    "form": "qiwi",
+    "gloss": "dream"
+   },
+   {
+    "form": "ʔaqiʔaw",
+    "gloss": "nose"
+   },
+   {
+    "form": "butaʃ",
+    "gloss": "wall"
+   },
+   {
+    "form": "qatu",
+    "gloss": "bone"
+   },
+   {
+    "form": "bobuʃaʃhos",
+    "gloss": "bowl"
+   },
+   {
+    "form": "dodwiqi",
+    "gloss": "honey"
+   },
+   {
+    "form": "saʃses",
+    "gloss": "mother"
+   },
+   {
+    "form": "ʃaʃaghi",
+    "gloss": "river"
+   },
+   {
+    "form": "goges",
+    "gloss": "basket"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "ʃatug_h",
+    "gloss": "net"
+   },
+   {
+    "blank_id": "b2",
+    "form": "guhduʔhog_",
+    "gloss": "friend"
+   },
+   {
+    "blank_id": "b3",
+    "form": "buw_ʃ",
+    "gloss": "father"
+   },
+   {
+    "blank_id": "b4",
+    "form": "dus_s",
+    "gloss": "drum"
+   },
+   {
+    "blank_id": "b5",
+    "form": "b_gatohʔuw",
+    "gloss": "horse"
+   },
+   {
+    "blank_id": "b6",
+    "form": "hahasg_stu",
+    "gloss": "fence"
+   },
+   {
+    "blank_id": "b7",
+    "form": "b_stuʔ",
+    "gloss": "tongue"
+   },
+   {
+    "blank_id": "b8",
+    "form": "g_wa",
+    "gloss": "fire"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "e",
+   "elsewhere": "i",
+   "environment": "closed-syllable",
+   "sounds": [],
+   "description": "/i/ is [e] in a closed syllable, and [i] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "i"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "i"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "i"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-11",
+  "target_sounds": [
+   "o",
+   "u"
+  ],
+  "words": [
+   {
+    "form": "ŋuŋuŋaʃʃes",
+    "gloss": "ring"
+   },
+   {
+    "form": "gesulta",
+    "gloss": "gate"
+   },
+   {
+    "form": "ʃuqga",
+    "gloss": "bowl"
+   },
+   {
+    "form": "ketiŋ",
+    "gloss": "bread"
+   },
+   {
+    "form": "sareʃketa",
+    "gloss": "child"
+   },
+   {
+    "form": "qoʃal",
+    "gloss": "dream"
+   },
+   {
+    "form": "ʃigluʃŋiŋ",
+    "gloss": "sand"
+   },
+   {
+    "form": "qotpi",
+    "gloss": "grass"
+   },
+   {
+    "form": "sekgarkarlug",
+    "gloss": "rope"
+   },
+   {
+    "form": "rapu",
+    "gloss": "leaf"
+   },
+   {
+    "form": "ŋaqaʃ",
+    "gloss": "meat"
+   },
+   {
+    "form": "suqeŋe",
+    "gloss": "root"
+   },
+   {
+    "form": "pirʃilŋipgi",
+    "gloss": "seed"
+   },
+   {
+    "form": "qaqoŋte",
+    "gloss": "field"
+   },
+   {
+    "form": "keʃap",
+    "gloss": "ash"
+   },
+   {
+    "form": "ʃasulrali",
+    "gloss": "fence"
+   },
+   {
+    "form": "luŋetelu",
+    "gloss": "gift"
+   },
+   {
+    "form": "gukakroʃ",
+    "gloss": "dog"
+   },
+   {
+    "form": "tuʃlurʃep",
+    "gloss": "snake"
+   },
+   {
+    "form": "tuʃŋiqitti",
+    "gloss": "bird"
+   },
+   {
+    "form": "kegaŋi",
+    "gloss": "mat"
+   },
+   {
+    "form": "raʃilu",
+    "gloss": "milk"
+   },
+   {
+    "form": "gigkul",
+    "gloss": "bone"
+   },
+   {
+    "form": "sukiqo",
+    "gloss": "father"
+   },
+   {
+    "form": "kakpesgiq",
+    "gloss": "garden"
+   },
+   {
+    "form": "ʃutegu",
+    "gloss": "knee"
+   },
+   {
+    "form": "qoʃero",
+    "gloss": "fish"
+   },
+   {
+    "form": "ʃiqopku",
+    "gloss": "salt"
+   },
+   {
+    "form": "ŋapariŋ",
+    "gloss": "story"
+   },
+   {
+    "form": "qotel",
+    "gloss": "fire"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "p_pepi",
+    "gloss": "cave"
+   },
+   {
+    "blank_id": "b2",
+    "form": "qikilletr_",
+    "gloss": "smoke"
+   },
+   {
+    "blank_id": "b3",
+    "form": "ŋiraŋilt_g",
+    "gloss": "honey"
+   },
+   {
+    "blank_id": "b4",
+    "form": "kipt_ktar",
+    "gloss": "shadow"
+   },
+   {
+    "blank_id": "b5",
+    "form": "k_tiʃle",
+    "gloss": "debt"
+   },
+   {
+    "blank_id": "b6",
+    "form": "selr_lpa",
+    "gloss": "bed"
+   },
+   {
+    "blank_id": "b7",
+    "form": "gipk_tas",
+    "gloss": "island"
+   },
+   {
+    "blank_id": "b8",
+    "form": "r_gkesi",
+    "gloss": "guest"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "o",
+   "elsewhere": "u",
+   "environment": "after",
+   "sounds": [
+    "q",
+    "r"
+   ],
+   "description": "/u/ is [o] after q or r, and [u] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "u"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "u"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "u"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "u"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "u"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "o"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-12",
+  "target_sounds": [
+   "k",
+   "q"
+  ],
+  "words": [
+   {
+    "form": "bakaqwuk",
+    "gloss": "mother"
+   },
+   {
+    "form": "yiloqut",
+    "gloss": "root"
+   },
+   {
+    "form": "kikoqbanoy",
+    "gloss": "rope"
+   },
+   {
+    "form": "putbobkiy",
+    "gloss": "shadow"
+   },
+   {
+    "form": "kiqyonqe",
+    "gloss": "garden"
+   },
+   {
+    "form": "yinaykekek",
+    "gloss": "mat"
+   },
+   {
+    "form": "kenqeboq",
+    "gloss": "guest"
+   },
+   {
+    "form": "buqu",
+    "gloss": "hair"
+   },
+   {
+    "form": "buyninbe",
+    "gloss": "cup"
+   },
+   {
+    "form": "gonege",
+    "gloss": "road"
+   },
+   {
+    "form": "qewwotnet",
+    "gloss": "bowl"
+   },
+   {
+    "form": "kintataqa",
+    "gloss": "story"
+   },
+   {
+    "form": "wuqotiq",
+    "gloss": "debt"
+   },
+   {
+    "form": "qoqipuptog",
+    "gloss": "flower"
+   },
+   {
+    "form": "quylukba",
+    "gloss": "dance"
+   },
+   {
+    "form": "pawpognuk",
+    "gloss": "snake"
+   },
+   {
+    "form": "yikukyek",
+    "gloss": "bread"
+   },
+   {
+    "form": "tuqi",
+    "gloss": "tower"
+   },
+   {
+    "form": "gokupul",
+    "gloss": "song"
+   },
+   {
+    "form": "noqwolpale",
+    "gloss": "skin"
+   },
+   {
+    "form": "gotkik",
+    "gloss": "tooth"
+   },
+   {
+    "form": "kikyowqe",
+    "gloss": "honey"
+   },
+   {
+    "form": "loywipappe",
+    "gloss": "ring"
+   },
+   {
+    "form": "quka",
+    "gloss": "river"
+   },
+   {
+    "form": "bekpi",
+    "gloss": "forest"
+   },
+   {
+    "form": "ketappuk",
+    "gloss": "nose"
+   },
+   {
+    "form": "goqupul",
+    "gloss": "field"
+   },
+   {
+    "form": "gulkuk",
+    "gloss": "dog"
+   },
+   {
+    "form": "kuka",
+    "gloss": "dream"
+   },
+   {
+    "form": "yiyaykekeq",
+    "gloss": "blood"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "pelpuni_i",
+    "gloss": "net"
+   },
+   {
+    "blank_id": "b2",
+    "form": "nalalen_i",
+    "gloss": "boat"
+   },
+   {
+    "blank_id": "b3",
+    "form": "_uwtato",
+    "gloss": "knife"
+   },
+   {
+    "blank_id": "b4",
+    "form": "gu_taptanyep",
+    "gloss": "meat"
+   },
+   {
+    "blank_id": "b5",
+    "form": "no_pewoyu",
+    "gloss": "snow"
+   },
+   {
+    "blank_id": "b6",
+    "form": "yatyo_",
+    "gloss": "salt"
+   },
+   {
+    "blank_id": "b7",
+    "form": "te_iy",
+    "gloss": "leaf"
+   },
+   {
+    "blank_id": "b8",
+    "form": "yale_o",
+    "gloss": "island"
+   }
+  ],
+  "distribution": "contrastive",
+  "minimal_pairs": [
+   {
+    "first": "gokupul",
+    "second": "goqupul"
+   },
+   {
+    "first": "quka",
+    "second": "kuka"
+   }
+  ],
+  "rule": null,
+  "answers": []
+ },
+ {
+  "dataset_id": "lang-13",
+  "target_sounds": [
+   "u",
+   "o"
+  ],
+  "words": [
+   {
+    "form": "gegleyu",
+    "gloss": "sand"
+   },
+   {
+    "form": "nisayu",
+    "gloss": "grass"
+   },
+   {
+    "form": "nasoy",
+    "gloss": "mat"
+   },
+   {
+    "form": "ludip",
+    "gloss": "fish"
+   },
+   {
+    "form": "degna",
+    "gloss": "song"
+   },
+   {
+    "form": "qiladnelsen",
+    "gloss": "bird"
+   },
+   {
+    "form": "qulid",
+    "gloss": "horse"
+   },
+   {
+    "form": "rolpal",
+    "gloss": "ring"
+   },
+   {
+    "form": "peratpiyu",
+    "gloss": "hill"
+   },
+   {
+    "form": "noysi",
+    "gloss": "heart"
+   },
+   {
+    "form": "nidelqasli",
+    "gloss": "boat"
+   },
+   {
+    "form": "satyeryey",
+    "gloss": "hair"
+   },
+   {
+    "form": "payusi",
+    "gloss": "fence"
+   },
+   {
+    "form": "gigir",
+    "gloss": "leaf"
+   },
+   {
+    "form": "taqdigsuqen",
+    "gloss": "egg"
+   },
+   {
+    "form": "qaggeta",
+    "gloss": "chief"
+   },
+   {
+    "form": "rirulaq",
+    "gloss": "snow"
+   },
+   {
+    "form": "rilupu",
+    "gloss": "root"
+   },
+   {
+    "form": "nilyu",
+    "gloss": "debt"
+   },
+   {
+    "form": "gonret",
+    "gloss": "stone"
+   },
+   {
+    "form": "sesid",
+    "gloss": "basket"
+   },
+   {
+    "form": "qidoryudig",
+    "gloss": "dream"
+   },
+   {
+    "form": "qingiyu",
+    "gloss": "milk"
+   },
+   {
+    "form": "dutaytirrat",
+    "gloss": "story"
+   },
+   {
+    "form": "rutel",
+    "gloss": "name"
+   },
+   {
+    "form": "sapayip",
+    "gloss": "forest"
+   },
+   {
+    "form": "qisyitu",
+    "gloss": "flower"
+   },
+   {
+    "form": "sonnayon",
+    "gloss": "mouth"
+   },
+   {
+    "form": "talutiyte",
+    "gloss": "drum"
+   },
+   {
+    "form": "poyyuqeg",
+    "gloss": "guest"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "p_rsili",
+    "gloss": "star"
+   },
+   {
+    "blank_id": "b2",
+    "form": "g_rridlepa",
+    "gloss": "belt"
+   },
+   {
+    "blank_id": "b3",
+    "form": "s_le",
+    "gloss": "price"
+   },
+   {
+    "blank_id": "b4",
+    "form": "tesd_ne",
+    "gloss": "rope"
+   },
+   {
+    "blank_id": "b5",
+    "form": "d_ldilrat",
+    "gloss": "tongue"
+   },
+   {
+    "blank_id": "b6",
+    "form": "p_lpiy",
+    "gloss": "bridge"
+   },
+   {
+    "blank_id": "b7",
+    "form": "d_yit",
+    "gloss": "market"
+   },
+   {
+    "blank_id": "b8",
+    "form": "s_lergiqga",
+    "gloss": "tree"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "o",
+   "elsewhere": "u",
+   "environment": "closed-syllable",
+   "sounds": [],
+   "description": "/u/ is [o] in a closed syllable, and [u] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "u"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "u"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "u"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "u"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-14",
+  "target_sounds": [
+   "r",
+   "l"
+  ],
+  "words": [
+   {
+    "form": "rorpir",
+    "gloss": "tooth"
+   },
+   {
+    "form": "piwyal",
+    "gloss": "island"
+   },
+   {
+    "form": "mewuli",
+    "gloss": "dream"
+   },
+   {
+    "form": "leliy",
+    "gloss": "eye"
+   },
+   {
+    "form": "liyirʃil",
+    "gloss": "gift"
+   },
+   {
+    "form": "piwyur",
+    "gloss": "bowl"
+   },
+   {
+    "form": "mitiro",
+    "gloss": "stone"
+   },
+   {
+    "form": "rulilike",
+    "gloss": "market"
+   },
+   {
+    "form": "rale",
+    "gloss": "roof"
+   },
+   {
+    "form": "ruwem",
+    "gloss": "egg"
+   },
+   {
+    "form": "raro",
+    "gloss": "river"
+   },
+   {
+    "form": "beʃakariy",
+    "gloss": "cow"
+   },
+   {
+    "form": "ʃiʃroke",
+    "gloss": "cave"
+   },
+   {
+    "form": "kobliworap",
+    "gloss": "belly"
+   },
+   {
+    "form": "keʃoyiʃrut",
+    "gloss": "knee"
+   },
+   {
+    "form": "weriwwer",
+    "gloss": "ash"
+   },
+   {
+    "form": "reraruri",
+    "gloss": "father"
+   },
+   {
+    "form": "liyirʃir",
+    "gloss": "ring"
+   },
+   {
+    "form": "poklikror",
+    "gloss": "fish"
+   },
+   {
+    "form": "keʃoyiʃlut",
+    "gloss": "bow"
+   },
+   {
+    "form": "miyak",
+    "gloss": "garden"
+   },
+   {
+    "form": "telte",
+    "gloss": "wall"
+   },
+   {
+    "form": "melop",
+    "gloss": "seed"
+   },
+   {
+    "form": "mutur",
+    "gloss": "net"
+   },
+   {
+    "form": "yiyawo",
+    "gloss": "blood"
+   },
+   {
+    "form": "paplelyurol",
+    "gloss": "cloud"
+   },
+   {
+    "form": "remuka",
+    "gloss": "lake"
+   },
+   {
+    "form": "wolire",
+    "gloss": "foot"
+   },
+   {
+    "form": "pumu",
+    "gloss": "wind"
+   },
+   {
+    "form": "letbo",
+    "gloss": "field"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "_upe",
+    "gloss": "skin"
+   },
+   {
+    "blank_id": "b2",
+    "form": "biwa_eʃe",
+    "gloss": "flower"
+   },
+   {
+    "blank_id": "b3",
+    "form": "_ompa",
+    "gloss": "fence"
+   },
+   {
+    "blank_id": "b4",
+    "form": "_apyaptawe",
+    "gloss": "dance"
+   },
+   {
+    "blank_id": "b5",
+    "form": "_eʃyoʃ",
+    "gloss": "belt"
+   },
+   {
+    "blank_id": "b6",
+    "form": "wum_epa",
+    "gloss": "shadow"
+   },
+   {
+    "blank_id": "b7",
+    "form": "_opaʃki",
+    "gloss": "rain"
+   },
+   {
+    "blank_id": "b8",
+    "form": "yomo_",
+    "gloss": "bird"
+   }
+  ],
+  "distribution": "contrastive",
+  "minimal_pairs": [
+   {
+    "first": "liyirʃil",
+    "second": "liyirʃir"
+   },
+   {
+    "first": "keʃoyiʃrut",
+    "second": "keʃoyiʃlut"
+   }
+  ],
+  "rule": null,
+  "answers": []
+ },
+ {
+  "dataset_id": "lang-15",
+  "target_sounds": [
+   "ʔ",
+   "t"
+  ],
+  "words": [
+   {
+    "form": "tesone",
+    "gloss": "wall"
+   },
+   {
+    "form": "haqbekbi",
+    "gloss": "root"
+   },
+   {
+    "form": "tutokiʃden",
+    "gloss": "sun"
+   },
+   {
+    "form": "tilliʃestin",
+    "gloss": "water"
+   },
+   {
+    "form": "hoto",
+    "gloss": "boat"
+   },
+   {
+    "form": "ʃekutohok",
+    "gloss": "tree"
+   },
+   {
+    "form": "taselta",
+    "gloss": "song"
+   },
+   {
+    "form": "tibute",
+    "gloss": "bone"
+   },
+   {
+    "form": "tikenonqos",
+    "gloss": "hair"
+   },
+   {
+    "form": "tilubukbus",
+    "gloss": "belt"
+   },
+   {
+    "form": "qadukbe",
+    "gloss": "skin"
+   },
+   {
+    "form": "toʃoltebe",
+    "gloss": "door"
+   },
+   {
+    "form": "tosaʔ",
+    "gloss": "garden"
+   },
+   {
+    "form": "luʃehʃenus",
+    "gloss": "foot"
+   },
+   {
+    "form": "kinhutuke",
+    "gloss": "mother"
+   },
+   {
+    "form": "tuqabo",
+    "gloss": "fish"
+   },
+   {
+    "form": "dodiʔ",
+    "gloss": "valley"
+   },
+   {
+    "form": "tequqaʔ",
+    "gloss": "bridge"
+   },
+   {
+    "form": "kuʃne",
+    "gloss": "horse"
+   },
+   {
+    "form": "qisbahaʔ",
+    "gloss": "debt"
+   },
+   {
+    "form": "salbelolhiʔ",
+    "gloss": "shadow"
+   },
+   {
+    "form": "tano",
+    "gloss": "roof"
+   },
+   {
+    "form": "sosdelo",
+    "gloss": "blood"
+   },
+   {
+    "form": "bukodqa",
+    "gloss": "story"
+   },
+   {
+    "form": "saʃin",
+    "gloss": "tooth"
+   },
+   {
+    "form": "tuso",
+    "gloss": "milk"
+   },
+   {
+    "form": "tulohi",
+    "gloss": "knee"
+   },
+   {
+    "form": "qulolun",
+    "gloss": "flower"
+   },
+   {
+    "form": "nukseleqta",
+    "gloss": "stone"
+   },
+   {
+    "form": "buʃeʔ",
+    "gloss": "rope"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "kihul_ed",
+    "gloss": "fence"
+   },
+   {
+    "blank_id": "b2",
+    "form": "su_edboʃ",
+    "gloss": "ear"
+   },
+   {
+    "blank_id": "b3",
+    "form": "bo_o",
+    "gloss": "hill"
+   },
+   {
+    "blank_id": "b4",
+    "form": "ʃunlodakle_",
+    "gloss": "salt"
+   },
+   {
+    "blank_id": "b5",
+    "form": "huli_",
+    "gloss": "belly"
+   },
+   {
+    "blank_id": "b6",
+    "form": "hibqe_",
+    "gloss": "bird"
+   },
+   {
+    "blank_id": "b7",
+    "form": "_idkiqab",
+    "gloss": "field"
+   },
+   {
+    "blank_id": "b8",
+    "form": "_ehsakdohi",
+    "gloss": "star"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "ʔ",
+   "elsewhere": "t",
+   "environment": "word-final",
+   "sounds": [],
+   "description": "/t/ is [ʔ] word-finally, and [t] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "t"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "t"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "t"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "ʔ"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "ʔ"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "ʔ"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "t"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "t"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-16",
+  "target_sounds": [
+   "i",
+   "e"
+  ],
+  "words": [
+   {
+    "form": "ŋipatqapow",
+    "gloss": "hair"
+   },
+   {
+    "form": "yaŋyiʔogyul",
+    "gloss": "door"
+   },
+   {
+    "form": "kiyeq",
+    "gloss": "knee"
+   },
+   {
+    "form": "ʔukig",
+    "gloss": "island"
+   },
+   {
+    "form": "qututopiw",
+    "gloss": "tongue"
+   },
+   {
+    "form": "yawŋay",
+    "gloss": "dream"
+   },
+   {
+    "form": "tiyqiŋo",
+    "gloss": "mouth"
+   },
+   {
+    "form": "potguyaŋ",
+    "gloss": "rain"
+   },
+   {
+    "form": "ʔupiʔu",
+    "gloss": "wind"
+   },
+   {
+    "form": "yipayuto",
+    "gloss": "meat"
+   },
+   {
+    "form": "ŋolupowo",
+    "gloss": "roof"
+   },
+   {
+    "form": "yuwgo",
+    "gloss": "lake"
+   },
+   {
+    "form": "pittoloʔ",
+    "gloss": "fish"
+   },
+   {
+    "form": "wogguqiŋ",
+    "gloss": "bow"
+   },
+   {
+    "form": "ʔutpolpu",
+    "gloss": "blood"
+   },
+   {
+    "form": "ʔotuq",
+    "gloss": "salt"
+   },
+   {
+    "form": "koyqikwiyqo",
+    "gloss": "valley"
+   },
+   {
+    "form": "waŋŋit",
+    "gloss": "milk"
+   },
+   {
+    "form": "yiʔlukek",
+    "gloss": "guest"
+   },
+   {
+    "form": "ʔutal",
+    "gloss": "hill"
+   },
+   {
+    "form": "lotiytaŋ",
+    "gloss": "basket"
+   },
+   {
+    "form": "titgapo",
+    "gloss": "hand"
+   },
+   {
+    "form": "tiqi",
+    "gloss": "tooth"
+   },
+   {
+    "form": "kalkuŋulpit",
+    "gloss": "knife"
+   },
+   {
+    "form": "wiŋʔek",
+    "gloss": "water"
+   },
+   {
+    "form": "yipwiŋ",
+    "gloss": "cup"
+   },
+   {
+    "form": "toypo",
+    "gloss": "debt"
+   },
+   {
+    "form": "kiʔqaluwkuk",
+    "gloss": "dance"
+   },
+   {
+    "form": "ŋitoloqa",
+    "gloss": "snow"
+   },
+   {
+    "form": "kataweq",
+    "gloss": "fire"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "tul_kula",
+    "gloss": "mother"
+   },
+   {
+    "blank_id": "b2",
+    "form": "k_lowoqa",
+    "gloss": "name"
+   },
+   {
+    "blank_id": "b3",
+    "form": "gayyulgup_q",
+    "gloss": "gate"
+   },
+   {
+    "blank_id": "b4",
+    "form": "ʔuŋul_q",
+    "gloss": "wall"
+   },
+   {
+    "blank_id": "b5",
+    "form": "g_gga",
+    "gloss": "star"
+   },
+   {
+    "blank_id": "b6",
+    "form": "qoŋpul_lgoʔ",
+    "gloss": "tower"
+   },
+   {
+    "blank_id": "b7",
+    "form": "yoyg_qʔaʔ",
+    "gloss": "leaf"
+   },
+   {
+    "blank_id": "b8",
+    "form": "gaŋʔolg_q",
+    "gloss": "foot"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "e",
+   "elsewhere": "i",
+   "environment": "before-word-final",
+   "sounds": [
+    "k",
+    "q"
+   ],
+   "description": "/i/ is [e] before a word-final k or q, and [i] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "i"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "i"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "e"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "i"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "i"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "i"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "e"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-17",
+  "target_sounds": [
+   "o",
+   "a"
+  ],
+  "words": [
+   {
+    "form": "kuŋi",
+    "gloss": "goat"
+   },
+   {
+    "form": "puqlala",
+    "gloss": "stone"
+   },
+   {
+    "form": "hihlihke",
+    "gloss": "knife"
+   },
+   {
+    "form": "lewwenkiqa",
+    "gloss": "mat"
+   },
+   {
+    "form": "nuŋla",
+    "gloss": "tongue"
+   },
+   {
+    "form": "hibŋalkapuk",
+    "gloss": "heart"
+   },
+   {
+    "form": "waqa",
+    "gloss": "honey"
+   },
+   {
+    "form": "qakkuh",
+    "gloss": "nose"
+   },
+   {
+    "form": "hupbe",
+    "gloss": "bow"
+   },
+   {
+    "form": "nalonpew",
+    "gloss": "net"
+   },
+   {
+    "form": "lewunuki",
+    "gloss": "foot"
+   },
+   {
+    "form": "nupekŋoŋ",
+    "gloss": "fish"
+   },
+   {
+    "form": "kiweŋon",
+    "gloss": "shadow"
+   },
+   {
+    "form": "nukunek",
+    "gloss": "knee"
+   },
+   {
+    "form": "luŋuhbuŋroŋ",
+    "gloss": "wall"
+   },
+   {
+    "form": "qahki",
+    "gloss": "story"
+   },
+   {
+    "form": "rirewa",
+    "gloss": "sun"
+   },
+   {
+    "form": "ŋuqepariŋ",
+    "gloss": "hand"
+   },
+   {
+    "form": "kekhoŋ",
+    "gloss": "skin"
+   },
+   {
+    "form": "wilhapaq",
+    "gloss": "song"
+   },
+   {
+    "form": "pupa",
+    "gloss": "guest"
+   },
+   {
+    "form": "qekha",
+    "gloss": "cloud"
+   },
+   {
+    "form": "ruŋwi",
+    "gloss": "blood"
+   },
+   {
+    "form": "bukpah",
+    "gloss": "chief"
+   },
+   {
+    "form": "luŋaqbon",
+    "gloss": "mouth"
+   },
+   {
+    "form": "ruwaqŋa",
+    "gloss": "bird"
+   },
+   {
+    "form": "lalukipaq",
+    "gloss": "ear"
+   },
+   {
+    "form": "huliwu",
+    "gloss": "bed"
+   },
+   {
+    "form": "biwerkihu",
+    "gloss": "wind"
+   },
+   {
+    "form": "kepba",
+    "gloss": "boat"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "b_nrebuhur",
+    "gloss": "gift"
+   },
+   {
+    "blank_id": "b2",
+    "form": "qib_k",
+    "gloss": "cave"
+   },
+   {
+    "blank_id": "b3",
+    "form": "qep_hhi",
+    "gloss": "father"
+   },
+   {
+    "blank_id": "b4",
+    "form": "h_nŋur",
+    "gloss": "bowl"
+   },
+   {
+    "blank_id": "b5",
+    "form": "riŋunel_l",
+    "gloss": "rope"
+   },
+   {
+    "blank_id": "b6",
+    "form": "q_ru",
+    "gloss": "hair"
+   },
+   {
+    "blank_id": "b7",
+    "form": "riperl_ŋku",
+    "gloss": "child"
+   },
+   {
+    "blank_id": "b8",
+    "form": "bik_kiqi",
+    "gloss": "basket"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "o",
+   "elsewhere": "a",
+   "environment": "before-syllable-final",
+   "sounds": [
+    "n",
+    "ŋ"
+   ],
+   "description": "/a/ is [o] before a syllable-final n or ŋ, and [a] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "a"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "o"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "a"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-18",
+  "target_sounds": [
+   "o",
+   "u"
+  ],
+  "words": [
+   {
+    "form": "nenuh",
+    "gloss": "child"
+   },
+   {
+    "form": "doyhobidlu",
+    "gloss": "game"
+   },
+   {
+    "form": "nenoh",
+    "gloss": "smoke"
+   },
+   {
+    "form": "wiyhabranoy",
+    "gloss": "cup"
+   },
+   {
+    "form": "pisup",
+    "gloss": "gift"
+   },
+   {
+    "form": "diypehdoror",
+    "gloss": "arrow"
+   },
+   {
+    "form": "doyhohidlo",
+    "gloss": "cave"
+   },
+   {
+    "form": "dorsinuyhab",
+    "gloss": "tree"
+   },
+   {
+    "form": "niwyerpuy",
+    "gloss": "water"
+   },
+   {
+    "form": "holospe",
+    "gloss": "boat"
+   },
+   {
+    "form": "hahud",
+    "gloss": "tooth"
+   },
+   {
+    "form": "dawwiniy",
+    "gloss": "roof"
+   },
+   {
+    "form": "nonho",
+    "gloss": "bowl"
+   },
+   {
+    "form": "pidel",
+    "gloss": "snake"
+   },
+   {
+    "form": "lunoyohwu",
+    "gloss": "story"
+   },
+   {
+    "form": "dayadodu",
+    "gloss": "tower"
+   },
+   {
+    "form": "bepos",
+    "gloss": "horse"
+   },
+   {
+    "form": "pisop",
+    "gloss": "moon"
+   },
+   {
+    "form": "yurusobrer",
+    "gloss": "dog"
+   },
+   {
+    "form": "punhewdubwa",
+    "gloss": "grass"
+   },
+   {
+    "form": "lupyo",
+    "gloss": "song"
+   },
+   {
+    "form": "doryip",
+    "gloss": "net"
+   },
+   {
+    "form": "lononbu",
+    "gloss": "salt"
+   },
+   {
+    "form": "hepup",
+    "gloss": "price"
+   },
+   {
+    "form": "parwaw",
+    "gloss": "river"
+   },
+   {
+    "form": "hayun",
+    "gloss": "root"
+   },
+   {
+    "form": "hehorsohul",
+    "gloss": "forest"
+   },
+   {
+    "form": "lelrosoypo",
+    "gloss": "basket"
+   },
+   {
+    "form": "norhowud",
+    "gloss": "snow"
+   },
+   {
+    "form": "wiyhabranuw",
+    "gloss": "gate"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "yeweylepd_n",
+    "gloss": "wall"
+   },
+   {
+    "blank_id": "b2",
+    "form": "pahedw_p",
+    "gloss": "bridge"
+   },
+   {
+    "blank_id": "b3",
+    "form": "sin_pha",
+    "gloss": "cow"
+   },
+   {
+    "blank_id": "b4",
+    "form": "rew_d",
+    "gloss": "honey"
+   },
+   {
+    "blank_id": "b5",
+    "form": "riwilb_s",
+    "gloss": "guest"
+   },
+   {
+    "blank_id": "b6",
+    "form": "hays_y",
+    "gloss": "friend"
+   },
+   {
+    "blank_id": "b7",
+    "form": "s_yni",
+    "gloss": "spear"
+   },
+   {
+    "blank_id": "b8",
+    "form": "pah_",
+    "gloss": "bird"
+   }
+  ],
+  "distribution": "contrastive",
+  "minimal_pairs": [
+   {
+    "first": "nenuh",
+    "second": "nenoh"
+   },
+   {
+    "first": "pisup",
+    "second": "pisop"
+   }
+  ],
+  "rule": null,
+  "answers": []
+ },
+ {
+  "dataset_id": "lang-19",
+  "target_sounds": [
+   "k",
+   "q"
+  ],
+  "words": [
+   {
+    "form": "susillodki",
+    "gloss": "grass"
+   },
+   {
+    "form": "duloʃ",
+    "gloss": "village"
+   },
+   {
+    "form": "ŋaqu",
+    "gloss": "seed"
+   },
+   {
+    "form": "maqeʃʔiʃet",
+    "gloss": "cow"
+   },
+   {
+    "form": "tiwlaqla",
+    "gloss": "leaf"
+   },
+   {
+    "form": "ŋiwaq",
+    "gloss": "foot"
+   },
+   {
+    "form": "kasoʔe",
+    "gloss": "valley"
+   },
+   {
+    "form": "tasatoqis",
+    "gloss": "nose"
+   },
+   {
+    "form": "demat",
+    "gloss": "lake"
+   },
+   {
+    "form": "ʃoʔku",
+    "gloss": "spear"
+   },
+   {
+    "form": "wekesodkeʃ",
+    "gloss": "bridge"
+   },
+   {
+    "form": "kidkisu",
+    "gloss": "hill"
+   },
+   {
+    "form": "ʃuŋituʃ",
+    "gloss": "mouth"
+   },
+   {
+    "form": "kasum",
+    "gloss": "dream"
+   },
+   {
+    "form": "sekde",
+    "gloss": "milk"
+   },
+   {
+    "form": "miʔited",
+    "gloss": "sun"
+   },
+   {
+    "form": "ŋotdeʃʃa",
+    "gloss": "root"
+   },
+   {
+    "form": "ʔosseli",
+    "gloss": "shadow"
+   },
+   {
+    "form": "kumko",
+    "gloss": "bow"
+   },
+   {
+    "form": "kaʃetke",
+    "gloss": "moon"
+   },
+   {
+    "form": "kudukad",
+    "gloss": "gate"
+   },
+   {
+    "form": "ŋudkeda",
+    "gloss": "snow"
+   },
+   {
+    "form": "kuʔulʃoŋi",
+    "gloss": "skin"
+   },
+   {
+    "form": "dawŋemkad",
+    "gloss": "river"
+   },
+   {
+    "form": "suʔuda",
+    "gloss": "song"
+   },
+   {
+    "form": "dimemʔuseŋ",
+    "gloss": "stone"
+   },
+   {
+    "form": "ʔekwi",
+    "gloss": "dance"
+   },
+   {
+    "form": "kuʔudka",
+    "gloss": "debt"
+   },
+   {
+    "form": "loqe",
+    "gloss": "father"
+   },
+   {
+    "form": "ʔeʃkiwʔis",
+    "gloss": "snake"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "luʔsu_",
+    "gloss": "net"
+   },
+   {
+    "blank_id": "b2",
+    "form": "mu_ow",
+    "gloss": "tooth"
+   },
+   {
+    "blank_id": "b3",
+    "form": "ŋaʔ_aʃu",
+    "gloss": "bowl"
+   },
+   {
+    "blank_id": "b4",
+    "form": "lo_is",
+    "gloss": "flower"
+   },
+   {
+    "blank_id": "b5",
+    "form": "ŋuʔ_e",
+    "gloss": "cave"
+   },
+   {
+    "blank_id": "b6",
+    "form": "to_otŋu",
+    "gloss": "ring"
+   },
+   {
+    "blank_id": "b7",
+    "form": "lut_osŋide",
+    "gloss": "eye"
+   },
+   {
+    "blank_id": "b8",
+    "form": "waʃo_",
+    "gloss": "house"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "q",
+   "elsewhere": "k",
+   "environment": "after",
+   "sounds": [
+    "a",
+    "o"
+   ],
+   "description": "/k/ is [q] after a or o, and [k] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "k"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "k"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "k"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "q"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "k"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "q"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "k"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "q"
+   }
+  ]
+ },
+ {
+  "dataset_id": "lang-20",
+  "target_sounds": [
+   "h",
+   "s"
+  ],
+  "words": [
+   {
+    "form": "nuwe",
+    "gloss": "basket"
+   },
+   {
+    "form": "nedsoru",
+    "gloss": "mother"
+   },
+   {
+    "form": "ganis",
+    "gloss": "chief"
+   },
+   {
+    "form": "rolha",
+    "gloss": "lake"
+   },
+   {
+    "form": "dolgosdel",
+    "gloss": "bow"
+   },
+   {
+    "form": "moddolʔaha",
+    "gloss": "river"
+   },
+   {
+    "form": "werre",
+    "gloss": "gift"
+   },
+   {
+    "form": "ʔelten",
+    "gloss": "village"
+   },
+   {
+    "form": "tagsesudi",
+    "gloss": "cow"
+   },
+   {
+    "form": "mogelta",
+    "gloss": "garden"
+   },
+   {
+    "form": "wagrowutso",
+    "gloss": "flower"
+   },
+   {
+    "form": "ʔinigenot",
+    "gloss": "seed"
+   },
+   {
+    "form": "nomsodew",
+    "gloss": "road"
+   },
+   {
+    "form": "sostagte",
+    "gloss": "snake"
+   },
+   {
+    "form": "mimma",
+    "gloss": "shadow"
+   },
+   {
+    "form": "misturiwu",
+    "gloss": "door"
+   },
+   {
+    "form": "ʔewotmes",
+    "gloss": "snow"
+   },
+   {
+    "form": "ʔige",
+    "gloss": "tongue"
+   },
+   {
+    "form": "ʔitus",
+    "gloss": "rain"
+   },
+   {
+    "form": "siʔha",
+    "gloss": "island"
+   },
+   {
+    "form": "minutus",
+    "gloss": "goat"
+   },
+   {
+    "form": "ridlegem",
+    "gloss": "belly"
+   },
+   {
+    "form": "ʔunuleso",
+    "gloss": "fish"
+   },
+   {
+    "form": "magdumha",
+    "gloss": "hair"
+   },
+   {
+    "form": "dagha",
+    "gloss": "water"
+   },
+   {
+    "form": "ʔasimgohu",
+    "gloss": "knee"
+   },
+   {
+    "form": "nodsimuʔlog",
+    "gloss": "knife"
+   },
+   {
+    "form": "weditsi",
+    "gloss": "forest"
+   },
+   {
+    "form": "nesgade",
+    "gloss": "dance"
+   },
+   {
+    "form": "wesirha",
+    "gloss": "cloud"
+   }
+  ],
+  "blanks": [
+   {
+    "blank_id": "b1",
+    "form": "_eʔeʔam",
+    "gloss": "bowl"
+   },
+   {
+    "blank_id": "b2",
+    "form": "lerag_u",
+    "gloss": "gate"
+   },
+   {
+    "blank_id": "b3",
+    "form": "do_u",
+    "gloss": "salt"
+   },
+   {
+    "blank_id": "b4",
+    "form": "te_wu",
+    "gloss": "bone"
+   },
+   {
+    "blank_id": "b5",
+    "form": "_ugraʔriri",
+    "gloss": "house"
+   },
+   {
+    "blank_id": "b6",
+    "form": "ʔid_o",
+    "gloss": "ring"
+   },
+   {
+    "blank_id": "b7",
+    "form": "wedla_u",
+    "gloss": "stone"
+   },
+   {
+    "blank_id": "b8",
+    "form": "_aduw",
+    "gloss": "mouth"
+   }
+  ],
+  "distribution": "complementary",
+  "minimal_pairs": [],
+  "rule": {
+   "special": "h",
+   "elsewhere": "s",
+   "environment": "before-word-final",
+   "sounds": [
+    "a",
+    "u"
+   ],
+   "description": "/s/ is [h] before a word-final a or u, and [s] elsewhere"
+  },
+  "answers": [
+   {
+    "blank_id": "b1",
+    "sound": "s"
+   },
+   {
+    "blank_id": "b2",
+    "sound": "h"
+   },
+   {
+    "blank_id": "b3",
+    "sound": "h"
+   },
+   {
+    "blank_id": "b4",
+    "sound": "s"
+   },
+   {
+    "blank_id": "b5",
+    "sound": "s"
+   },
+   {
+    "blank_id": "b6",
+    "sound": "s"
+   },
+   {
+    "blank_id": "b7",
+    "sound": "h"
+   },
+   {
+    "blank_id": "b8",
+    "sound": "s"
+   }
+  ]
+ }
+]

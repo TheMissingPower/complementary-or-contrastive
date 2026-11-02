@@ -1,0 +1,13 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "Decide whether two sounds of an invented language are one sound or two, and prove it"
+summary: "Complementary or Contrastive gives an agent the words of an invented language and two target sounds. The agent must decide whether the sounds are in complementary or contrastive distribution, and back that up: with real minimal pairs from the data, or by filling in held-out words the way the hidden rule would. Code, not a model, checks every pair and every blank."
+highlights:
+  - "20 invented languages, so the answer cannot be remembered from real-language data"
+  - "Every minimal pair is checked symbol by symbol, and one bad pair fails the answer"
+  - "Held-out words are chosen so a rule that is almost right gets them wrong"
+  - "Each dataset's blanks are proven to have exactly one answer within the rule space"
+steps:
+  - "Ask for a dataset, such as lang-07"
+  - "The agent reads the words with get_dataset and finds the pattern"
+  - "It submits the distribution with minimal pairs or a sound for every blank"
+  - "The verifier checks the answer against the frozen answer key"
