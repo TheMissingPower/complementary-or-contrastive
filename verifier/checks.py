@@ -1,12 +1,21 @@
 """Checks shared by the verifiers. Pure functions of their arguments."""
 
 import re
+import unicodedata
 
 from .rules import BLANK, VOWELS
 
 DATASET_ID = re.compile(r"lang-\d\d")
 CONSONANTS = "ptkqʔbdgmnŋsʃhlrwy"  # in a fixed order, for the generator
 SYMBOLS = frozenset(CONSONANTS) | VOWELS
+# Other spellings of inventory symbols, read as the symbol: Americanist š for IPA ʃ, the IPA script ɡ for g,
+# and modifier-letter glottal stops for ʔ.
+VARIANTS = str.maketrans({"š": "ʃ", "ɡ": "g", "ʼ": "ʔ", "ˀ": "ʔ"})
+
+
+def canonical(text):
+    """``text`` with variant spellings of inventory symbols replaced by the symbols (after NFC, so s + caron is š)."""
+    return unicodedata.normalize("NFC", text).translate(VARIANTS)
 
 
 def result(valid, message, *, score=None, **details):

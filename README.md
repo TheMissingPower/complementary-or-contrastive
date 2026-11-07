@@ -135,6 +135,10 @@ order, and stops at the first failure with a reason:
    - No blank is predicted twice, and none is missing.
    - Every prediction matches the answer key.
 
+Before steps 4 and 5, pair words and predicted sounds are NFC-normalized, and
+other common spellings of inventory symbols are read as the symbol: `š` → `ʃ`,
+IPA `ɡ` → `g`, `ʼ`/`ˀ` → `ʔ`.
+
 `details` always carries `blank_results` (blank_id → correct), `blanks_correct`
 and `blanks_total`, so partial accuracy can be reported even when the verdict
 is a fail.

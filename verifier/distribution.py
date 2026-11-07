@@ -6,15 +6,15 @@ correctness, so partial accuracy can still be reported.
 
 from contract import Distribution
 
-from .checks import result
+from .checks import canonical, result
 
 
 def pair_problem(pair, shown, a, b):
     """What makes ``pair`` no minimal pair for a and b among the shown words, or None."""
-    first, second = pair.first, pair.second
-    for form in (first, second):
+    first, second = canonical(pair.first), canonical(pair.second)
+    for given, form in ((pair.first, first), (pair.second, second)):
         if form not in shown:
-            return f"{form!r} is not one of the shown words"
+            return f"{given!r} is not one of the shown words"
     if len(first) != len(second):
         return f"{first} and {second} differ in length"
     differ = [(x, y) for x, y in zip(first, second) if x != y]
@@ -30,7 +30,7 @@ def blank_results(output, reference):
     answers = {answer.blank_id: answer.sound for answer in reference.answers}
     given = {}
     for prediction in output.predictions:
-        given.setdefault(prediction.blank_id, []).append(prediction.sound)
+        given.setdefault(prediction.blank_id, []).append(canonical(prediction.sound))
     return {blank_id: given.get(blank_id) == [sound] for blank_id, sound in answers.items()}
 
 
@@ -68,7 +68,7 @@ def verify_task(arguments, output, reference, workspace):
     for prediction in output.predictions:
         if prediction.blank_id not in blanks:
             return fail(f"{prediction.blank_id!r} is not one of the blanks")
-        if prediction.sound not in (a, b):
+        if canonical(prediction.sound) not in (a, b):
             return fail(f"blank {prediction.blank_id}: {prediction.sound!r} is neither {a} nor {b}")
     repeated = sorted({blank_id for blank_id in ids if ids.count(blank_id) > 1})
     if repeated:

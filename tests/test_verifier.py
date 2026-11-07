@@ -114,6 +114,22 @@ def test_fails_a_pair_with_a_word_not_in_the_dataset(which, tmp_path) -> None:
     assert result["valid"] is False and "is not one of the shown words" in result["message"]
 
 
+@pytest.mark.parametrize("sh", ["š", "š"], ids=["composed", "decomposed"])
+def test_passes_a_minimal_pair_spelling_esh_as_s_caron(sh, tmp_path) -> None:
+    key = next(key for key in KEYS if key.dataset_id == "lang-02")
+    pair = ("bekniraʃ".replace("ʃ", sh), "bekneraʃ".replace("ʃ", sh))
+    result = verdict(key, contrastive(pair), tmp_path)
+    assert result["valid"] is True, result["message"]
+
+
+def test_passes_predictions_spelling_esh_as_s_caron(tmp_path) -> None:
+    key = next(key for key in KEYS if key.dataset_id == "lang-07")
+    given = {blank_id: sound.replace("ʃ", "š") for blank_id, sound in answers(key).items()}
+    assert "š" in given.values()
+    result = verdict(key, complementary(given), tmp_path)
+    assert result["valid"] is True and result["details"]["blanks_correct"] == len(given), result["message"]
+
+
 def test_fails_one_invalid_pair_among_valid_ones(tmp_path) -> None:
     first = true_pairs(CONTRASTIVE)[0][0]
     result = verdict(CONTRASTIVE, contrastive(*true_pairs(CONTRASTIVE), (first, first)), tmp_path)
